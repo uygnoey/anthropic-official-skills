@@ -25,11 +25,12 @@ def main() -> int:
     if STATE_FILE.exists():
         data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
     else:
-        data = {"description": "Map of processed blog URLs", "entries": {}}
+        data = {"description": "Map of processed blog URLs", "meta": {}, "entries": {}}
 
+    data.setdefault("meta", {})
     data.setdefault("entries", {})[args.url] = {
         "slug": args.slug,
-        "processed_at": dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "processed_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source_date": args.source_date,
     }
 
