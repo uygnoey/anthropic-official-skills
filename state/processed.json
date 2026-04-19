@@ -18,6 +18,16 @@
       "slug": "using-subagents",
       "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2026-04-07"
+    },
+    "https://claude.com/blog/claude-code-on-the-web": {
+      "slug": "browser-based-code-delegation",
+      "processed_at": "2026-04-19T16:14:07Z",
+      "source_date": "2025-10-20"
+    },
+    "https://claude.com/blog/building-ai-agents-in-financial-services": {
+      "slug": "financial-services-agent-deployment",
+      "processed_at": "2026-04-19T16:14:08Z",
+      "source_date": "2025-10-30"
     }
   }
 }
