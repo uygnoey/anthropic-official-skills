@@ -1,9 +1,9 @@
-# Anthropic Official Skills
+# skills-from-claude-blog
 
-> Auto-generated Agent Skills distilled from official [Anthropic / Claude blog posts](https://www.claude.com/blog).
-> Each skill ships as a spec-compliant `SKILL.md` (English, for Claude to load) plus human descriptions in Korean and English.
+> Agent Skills distilled from posts on [claude.com/blog](https://www.claude.com/blog).
+> Not affiliated with Anthropic — this is a third-party summary project.
 
-Anthropic 공식 블로그 글을 기반으로 Claude Code/API에서 바로 쓸 수 있는 Agent Skill을 자동으로 정리합니다. 4시간마다 배치가 돌면서 신규 글과 미정리 글을 찾아 반영합니다.
+Anthropic의 공식 블로그 글을 읽어, Claude Code/API에서 바로 쓸 수 있는 [Agent Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) 형식의 `SKILL.md`로 정리하는 저장소입니다. 4시간마다 배치가 돌면서 신규 글과 미정리 글을 찾아 반영합니다.
 
 ## Skill layout (per folder)
 
@@ -31,7 +31,7 @@ skills/<skill-name>/
 
 ```
 .
-├── skills/           # 스킬 모음
+├── skills/           # 정제된 스킬 모음
 │   ├── README.md     # 인덱스
 │   └── <skill>/
 ├── scripts/          # 대기 목록 조회, 상태 기록, 배치 타임스탬프
@@ -39,14 +39,14 @@ skills/<skill-name>/
     └── processed.json  # 처리된 URL과 last_run_at
 ```
 
-## Authoring guidelines for this repo
+## Authoring guidelines
 
 1. **SKILL.md는 영어**로 작성하고 Anthropic 공식 규격을 따른다.
 2. 스킬명(폴더명)에 `claude` 또는 `anthropic` 넣지 않는다.
 3. description은 "무엇을 한다" + "언제 사용하는지" 둘 다 포함해야 한다.
 4. 본문은 Instructions → Examples → (선택) Anti-patterns → Source 순을 권장.
-5. 한국어 설명은 `description.ko.md`, 영문 해설은 `description.en.md`로 분리.
-6. 원문에 없는 내용은 절대 지어내지 않는다 — 출처 명시 필수.
+5. 한국어 해설은 `description.ko.md`, 영문 해설은 `description.en.md`로 분리.
+6. 원문에 없는 내용은 지어내지 않는다 — 출처 명시 필수.
 
 ## License
 
