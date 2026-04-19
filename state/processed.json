@@ -28,6 +28,16 @@
       "processed_at": "2026-04-19T16:14:08Z",
       "source_date": "2025-10-30",
       "blog_slug": "building-ai-agents-in-financial-services"
+    },
+    "https://claude.com/blog/improving-frontend-design-through-skills": {
+      "blog_slug": "improving-frontend-design-through-skills",
+      "processed_at": "2026-04-19T20:12:45Z",
+      "source_date": "2025-10-30"
+    },
+    "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026": {
+      "blog_slug": "how-enterprises-are-building-ai-agents-in-2026",
+      "processed_at": "2026-04-19T20:12:46Z",
+      "source_date": "2025-11-12"
     }
   }
 }

@@ -48,11 +48,14 @@ posts/<blog-slug>/
 
 | Blog post | Artifacts |
 |---|---|
+| [How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026) | 2025-12-09 | 1 guide (en/ko) |
+| [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills) | 2025-11-12 | 1 skill + 1 guide (en/ko) |
 | [claude-code-on-the-web](posts/claude-code-on-the-web/) (2025-10-20) | 1 skill |
 | [building-ai-agents-in-financial-services](posts/building-ai-agents-in-financial-services/) (2025-10-30) | 1 skill + 3 agents + 1 guide (en/ko) |
 | [best-practices-for-prompt-engineering](posts/best-practices-for-prompt-engineering/) (2025-11-10) | 1 skill |
 | [using-claude-md-files](posts/using-claude-md-files/) (2025-11-25) | 1 skill |
 | [subagents-in-claude-code](posts/subagents-in-claude-code/) (2026-04-07) | 1 skill |
+
 
 ## Batch operation
 
