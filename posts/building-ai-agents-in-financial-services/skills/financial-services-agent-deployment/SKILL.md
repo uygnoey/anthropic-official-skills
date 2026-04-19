@@ -30,18 +30,18 @@ Use this skill to turn a financial-services agent idea into a deployable plan th
 - Letting agents take high-risk actions without a defined human-in-the-loop approval step.
 - Building one-off integrations instead of reusable foundations (e.g., shared document processing).
 
-## Bundled resources
-This skill folder ships with additional materials that follow their own Claude specs:
+## Companion resources
+The blog post this skill was distilled from also produced other Claude-spec artifacts. They live next to this skill in the same post folder:
 
-- [`guides/deployment-playbook.md`](guides/deployment-playbook.md) — free-form staged rollout playbook, integration patterns, risk controls, named industry examples, and a decision checklist. Read this when you need depth beyond the step list above.
-- [`agents/transaction-monitor.md`](agents/transaction-monitor.md) — Claude Code [subagent](https://code.claude.com/docs/en/sub-agents) definition for transaction pattern review.
-- [`agents/expense-anomaly-reviewer.md`](agents/expense-anomaly-reviewer.md) — subagent for full-coverage expense review with grouped findings.
-- [`agents/compliance-deadline-monitor.md`](agents/compliance-deadline-monitor.md) — subagent for deadline tracking and regulatory document triage.
+- [`../../guides/deployment-playbook.en.md`](../../guides/deployment-playbook.en.md) / [`../../guides/deployment-playbook.ko.md`](../../guides/deployment-playbook.ko.md) — free-form staged rollout playbook, integration patterns, risk controls, named industry examples, and a decision checklist.
+- [`../../agents/transaction-monitor.md`](../../agents/transaction-monitor.md) — Claude Code [subagent](https://code.claude.com/docs/en/sub-agents) definition for transaction pattern review.
+- [`../../agents/expense-anomaly-reviewer.md`](../../agents/expense-anomaly-reviewer.md) — subagent for full-coverage expense review with grouped findings.
+- [`../../agents/compliance-deadline-monitor.md`](../../agents/compliance-deadline-monitor.md) — subagent for deadline tracking and regulatory document triage.
 
 The three agent files are ready to drop into `.claude/agents/` (project) or `~/.claude/agents/` (user) as-is.
 
 ## Human-readable descriptions
-This skill is summarized for humans in [description.en.md](description.en.md) and [description.ko.md](description.ko.md).
+This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
 
 ## Source
 Distilled from [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).

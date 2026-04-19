@@ -25,7 +25,7 @@ Use this skill when the user wants to hand off small-to-medium coding tasks from
 - Remember cloud sessions can be rate-limited alongside other usage, and may require allowing specific network domains for dependencies.
 
 ## Human-readable descriptions
-This skill is summarized for humans in [description.en.md](description.en.md) and [description.ko.md](description.ko.md).
+This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
 
 ## Source
 Distilled from [Claude Code on the web](https://claude.com/blog/claude-code-on-the-web) (published 2025-10-20).

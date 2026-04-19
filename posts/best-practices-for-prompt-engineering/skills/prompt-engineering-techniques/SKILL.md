@@ -137,7 +137,7 @@ This prompt applies: explicit action verb, context ("for automated processing"),
 
 ## Human-readable descriptions
 
-This skill is summarized for humans in [description.en.md](description.en.md) and [description.ko.md](description.ko.md).
+This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
 
 ## Source
 

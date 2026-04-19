@@ -103,7 +103,7 @@ All routes use `/api/v1` prefix. JWT tokens expire after 24 hours.
 
 ## Human-readable descriptions
 
-This skill is summarized for humans in [description.en.md](description.en.md) and [description.ko.md](description.ko.md).
+This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
 
 ## Source
 

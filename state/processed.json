@@ -1,33 +1,33 @@
 {
-  "description": "Map of processed blog URLs -> { slug, processed_at, source_date }",
+  "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
     "last_run_at": "2026-04-19"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
-      "slug": "project-context-files",
       "processed_at": "2026-04-19T13:20:00Z",
-      "source_date": "2025-11-25"
+      "source_date": "2025-11-25",
+      "blog_slug": "using-claude-md-files"
     },
     "https://claude.com/blog/best-practices-for-prompt-engineering": {
-      "slug": "prompt-engineering-techniques",
       "processed_at": "2026-04-19T13:20:00Z",
-      "source_date": "2025-11-10"
+      "source_date": "2025-11-10",
+      "blog_slug": "best-practices-for-prompt-engineering"
     },
     "https://claude.com/blog/subagents-in-claude-code": {
-      "slug": "using-subagents",
       "processed_at": "2026-04-19T13:20:00Z",
-      "source_date": "2026-04-07"
+      "source_date": "2026-04-07",
+      "blog_slug": "subagents-in-claude-code"
     },
     "https://claude.com/blog/claude-code-on-the-web": {
-      "slug": "browser-based-code-delegation",
       "processed_at": "2026-04-19T16:14:07Z",
-      "source_date": "2025-10-20"
+      "source_date": "2025-10-20",
+      "blog_slug": "claude-code-on-the-web"
     },
     "https://claude.com/blog/building-ai-agents-in-financial-services": {
-      "slug": "financial-services-agent-deployment",
       "processed_at": "2026-04-19T16:14:08Z",
-      "source_date": "2025-10-30"
+      "source_date": "2025-10-30",
+      "blog_slug": "building-ai-agents-in-financial-services"
     }
   }
 }
