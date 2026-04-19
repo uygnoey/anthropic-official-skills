@@ -1,23 +1,23 @@
 {
   "description": "Map of processed blog URLs -> { slug, processed_at, source_date }",
+  "meta": {
+    "last_run_at": "2026-04-19"
+  },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
-      "slug": "using-claude-md-files",
-      "processed_at": "2026-04-19T03:40:00Z",
+      "slug": "project-context-files",
+      "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2025-11-25"
     },
     "https://claude.com/blog/best-practices-for-prompt-engineering": {
-      "slug": "best-practices-for-prompt-engineering",
-      "processed_at": "2026-04-19T03:40:00Z",
+      "slug": "prompt-engineering-techniques",
+      "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2025-11-10"
     },
     "https://claude.com/blog/subagents-in-claude-code": {
-      "slug": "subagents-in-claude-code",
-      "processed_at": "2026-04-19T03:40:00Z",
+      "slug": "using-subagents",
+      "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2026-04-07"
     }
-  },
-  "meta": {
-    "last_run_at": "2026-04-19"
   }
 }

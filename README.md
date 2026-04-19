@@ -1,39 +1,54 @@
 # Anthropic Official Skills
 
-> Auto-generated `SKILL.md` files distilled from official [Anthropic / Claude blog posts](https://www.claude.com/blog).
-> Each skill is written in **Korean and English**, with runnable examples.
+> Auto-generated Agent Skills distilled from official [Anthropic / Claude blog posts](https://www.claude.com/blog).
+> Each skill ships as a spec-compliant `SKILL.md` (English, for Claude to load) plus human descriptions in Korean and English.
 
-이 저장소는 **Anthropic 공식 블로그 글**을 기반으로, Claude를 더 잘 사용하기 위한 실용 스킬(프롬프트·패턴·예제)을 자동으로 정리합니다.
-매시간 배치가 돌면서 신규 글 또는 아직 정리되지 않은 글을 찾아 `SKILL.md`로 변환하여 커밋합니다.
+Anthropic 공식 블로그 글을 기반으로 Claude Code/API에서 바로 쓸 수 있는 Agent Skill을 자동으로 정리합니다. 4시간마다 배치가 돌면서 신규 글과 미정리 글을 찾아 반영합니다.
 
-## 구조 / Structure
+## Skill layout (per folder)
 
 ```
-skills/
-  <slug>/
-    SKILL.md          # KR + EN, examples included
-    source.json       # 원 글 URL, 날짜, 처리 메타데이터
-scripts/
-  process_blog.py     # 배치 스크립트 (Perplexity Computer가 호출)
-state/
-  processed.json      # 이미 처리된 글 목록 (중복 방지)
+skills/<skill-name>/
+├── SKILL.md           # Anthropic Skills spec: YAML frontmatter + English instructions + examples
+├── description.ko.md  # 한국어 해설 (이 스킬 소개, 사용 시점, 예시)
+├── description.en.md  # English explainer (overview, when to use, examples)
+└── source.json        # original blog URL, title, published date
 ```
 
-## 원칙 / Principles
+`SKILL.md`는 [Anthropic Agent Skills 규격](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)을 따릅니다.
+- `name`: 소문자/숫자/하이픈, 최대 64자, `anthropic`/`claude` 예약어 금지
+- `description`: 3인칭, 1024자 이내, 스킬이 하는 일 + 언제 쓰는지 포함
+- 본문: 500줄 이내, Instructions + Examples 구조
 
-1. **출처 명시**: 모든 SKILL.md 상단에 원본 블로그 URL과 게시일을 명시합니다.
-2. **한국어 + 영어 병기**: 각 섹션을 KR / EN 순으로 제공합니다.
-3. **실행 가능한 예시**: 프롬프트 샘플, 코드 스니펫 등 바로 복사해서 쓸 수 있는 예시를 포함합니다.
-4. **근거 없는 확장 금지**: 원 글에 명시된 내용만 요약·정리합니다. 추측이나 보강은 하지 않습니다.
+## Batch operation
 
-## 배치 동작 / Batch behavior
+- Perplexity Computer cron이 4시간마다 실행
+- `https://www.claude.com/sitemap.xml`과 `/blog` 인덱스에서 글 목록 수집
+- 우선순위: (1) 마지막 배치 이후 신규 글 (최신순) → (2) 미처리 기존 글 (오래된순) → (3) 게시일 미상
+- 한 번에 최대 2개 글을 처리. 처리 결과는 `git commit && push`로 자동 반영.
 
-- 매시간 1회 Perplexity Computer가 `scripts/process_blog.py`의 실행 로직을 수행합니다.
-- `https://www.claude.com/sitemap.xml` 에서 `/blog/` URL 목록을 수집합니다.
-- `state/processed.json`에 없는 URL이 있으면 본문을 가져와 SKILL.md를 생성합니다.
-- 한 번 실행 시 최대 몇 개의 새 글을 처리하여 과도한 API 호출을 방지합니다.
+## Files / 디렉토리
 
-## 라이선스 / License
+```
+.
+├── skills/           # 스킬 모음
+│   ├── README.md     # 인덱스
+│   └── <skill>/
+├── scripts/          # 대기 목록 조회, 상태 기록, 배치 타임스탬프
+└── state/
+    └── processed.json  # 처리된 URL과 last_run_at
+```
+
+## Authoring guidelines for this repo
+
+1. **SKILL.md는 영어**로 작성하고 Anthropic 공식 규격을 따른다.
+2. 스킬명(폴더명)에 `claude` 또는 `anthropic` 넣지 않는다.
+3. description은 "무엇을 한다" + "언제 사용하는지" 둘 다 포함해야 한다.
+4. 본문은 Instructions → Examples → (선택) Anti-patterns → Source 순을 권장.
+5. 한국어 설명은 `description.ko.md`, 영문 해설은 `description.en.md`로 분리.
+6. 원문에 없는 내용은 절대 지어내지 않는다 — 출처 명시 필수.
+
+## License
 
 - 원문(Anthropic 블로그 글)의 저작권은 Anthropic에 있습니다. 이 저장소는 학습·참고 목적의 요약·인용만 포함합니다.
 - 저장소 자체 코드(스크립트, 구조)는 MIT License.
