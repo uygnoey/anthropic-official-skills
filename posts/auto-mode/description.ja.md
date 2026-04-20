@@ -1,7 +1,7 @@
 [English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 ## この記事について
-Claude CodeのAuto mode（自動モード）を紹介します。Claudeが多くのツール操作を自動承認しつつ、危険な挙動を防ぐための安全策でリスクの高い操作をブロックします。
+Claude CodeのAuto mode（自動モード）を紹介します。Claudeが多くのツール操作を自動承認しつつ、安全策でリスクの高い操作をブロックします。
 
 ## どんなときに役立つか
 承認の中断を減らして長時間タスクを走らせたい一方で、--dangerously-skip-permissionsで権限確認を完全に外すのは避けたいときに役立ちます。

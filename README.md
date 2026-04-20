@@ -69,12 +69,13 @@ Each artifact can be copied into a project as-is.
 
 | Blog post | Published | Artifacts |
 |---|---|---|
-| claude-and-slack | 1 skill + 1 guide | 2025-10-01 |
-| claude-code-desktop-redesign | 1 skill | 2026-04-14 |
+| [Best practices for using Claude Opus 4.7 with Claude Code](https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code) | 2026-04-16 | 1 skill + 1 guide |
+| [Redesigning Claude Code on desktop for parallel agents](https://claude.com/blog/claude-code-desktop-redesign) | 2026-04-14 | 1 skill |
 | [Preparing your security program for AI-accelerated offense](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense) | 2026-04-10 | 2 skills + 3 agents + 1 guide |
 | [Claude Managed Agents: get to production 10x faster](https://claude.com/blog/claude-managed-agents) | 2026-04-08 | 1 guide |
 | [Subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) | 2026-04-07 | 2 skills + 1 agent + 1 hook |
 | [Harnessing Claude's Intelligence \| 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) | 2026-04-02 | 1 skill + 1 guide |
+| [Auto mode for Claude Code](https://claude.com/blog/auto-mode) | 2026-03-24 | 1 skill |
 | [Claude builds interactive visuals right in your conversation](https://claude.com/blog/claude-builds-visuals) | 2026-03-12 | 1 skill |
 | [How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026) | 2025-12-09 | 1 guide |
 | [Using CLAUDE.md files](https://claude.com/blog/using-claude-md-files) | 2025-11-25 | 1 skill |
@@ -82,6 +83,7 @@ Each artifact can be copied into a project as-is.
 | [Best practices for prompt engineering](https://claude.com/blog/best-practices-for-prompt-engineering) | 2025-11-10 | 1 skill |
 | [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) | 2025-10-30 | 1 skill + 3 agents + 1 guide |
 | [Claude Code on the web](https://claude.com/blog/claude-code-on-the-web) | 2025-10-20 | 1 skill |
+| [Claude and Slack](https://claude.com/blog/claude-and-slack) | 2025-10-01 | 1 skill + 1 guide |
 
 All guides and summaries are available in English, Korean, Spanish, and Japanese. Click the language switcher at the top of each file.
 

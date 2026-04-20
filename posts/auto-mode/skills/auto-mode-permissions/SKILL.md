@@ -1,6 +1,6 @@
 ---
 name: auto-mode-permissions
-description: Distills guidance from "Auto mode for Claude Code" for use in Claude Code.
+description: Guides when and how to use Claude Code's auto mode for permission handling. Use when deciding between default, auto, and --dangerously-skip-permissions flow, enabling auto mode for long multi-file edits, responding to repeated classifier blocks, or (as an admin) turning auto mode off via managed settings.
 ---
 
 # Auto mode permissions workflow

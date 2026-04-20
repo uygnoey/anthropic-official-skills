@@ -14,8 +14,8 @@ Useful when upgrading from Opus 4.6 to 4.7 (or tuning a fresh setup) and you nee
 - Behavior changes: responses are calibrated to complexity (not default-verbose), it calls tools less often and reasons more, and it spawns fewer subagents by default—so be explicit if you want more tool use or parallel subagents.
 
 ## Bundled resources
-- 1 skill (opus-4-7-claude-code-best-practices)
-- 1 guide set (opus-4-7-claude-code-best-practices)
+- 1 skill (opus-4-7-code-best-practices)
+- 1 guide set (opus-4-7-code-best-practices)
 
 ## Source
 - Best practices for using Claude Opus 4.7 with Claude Code (2026-04-16): https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code

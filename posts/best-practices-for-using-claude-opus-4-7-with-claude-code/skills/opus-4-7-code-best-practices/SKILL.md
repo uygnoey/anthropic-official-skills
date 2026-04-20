@@ -1,6 +1,6 @@
 ---
-name: opus-4-7-claude-code-best-practices
-description: Distills guidance from "Best practices for using Claude Opus 4.7 with Claude Code" for use in Claude Code.
+name: opus-4-7-code-best-practices
+description: Applies the Opus 4.7 prompting and session-tuning guidance from "Best practices for using Claude Opus 4.7 with Claude Code". Use when opening a Claude Code session with Opus 4.7, choosing an effort level (high / xhigh / max), batching questions, or deciding whether to nudge toward more tool use and parallel subagents.
 ---
 
 # Opus 4.7 prompting and session tuning for Claude Code
@@ -26,7 +26,7 @@ Assistant: "I will spawn multiple subagents in the same turn to review packages 
 Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), [../../description.ja.md](../../description.ja.md).
 
 ## Companion resources
-- Guide: [../../guides/opus-4-7-claude-code-best-practices.en.md](../../guides/opus-4-7-claude-code-best-practices.en.md)
+- Guide: [../../guides/opus-4-7-code-best-practices.en.md](../../guides/opus-4-7-code-best-practices.en.md), [../../guides/opus-4-7-code-best-practices.ko.md](../../guides/opus-4-7-code-best-practices.ko.md), [../../guides/opus-4-7-code-best-practices.es.md](../../guides/opus-4-7-code-best-practices.es.md), [../../guides/opus-4-7-code-best-practices.ja.md](../../guides/opus-4-7-code-best-practices.ja.md)
 
 ## Source
 Distilled from [Best practices for using Claude Opus 4.7 with Claude Code](https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code) (published 2026-04-16).

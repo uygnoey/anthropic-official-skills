@@ -14,8 +14,8 @@ Opus 4.6から4.7へ移行（または新規セットアップ）する際に、
 - 挙動の変更点: 返答の長さは複雑さに合わせて調整され、ツール呼び出しは減って推論が増え、既定ではsubagent生成も減ります。より多くのツール利用や並列subagentが必要なら明示してください。
 
 ## 同梱リソース
-- 1 skill (opus-4-7-claude-code-best-practices)
-- 1 guide set (opus-4-7-claude-code-best-practices)
+- 1 skill (opus-4-7-code-best-practices)
+- 1 guide set (opus-4-7-code-best-practices)
 
 ## 出典
 - Best practices for using Claude Opus 4.7 with Claude Code (2026-04-16): https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code

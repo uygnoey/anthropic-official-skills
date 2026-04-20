@@ -68,6 +68,16 @@
       "blog_slug": "claude-and-slack",
       "processed_at": "2026-04-20T08:14:14Z",
       "source_date": "2025-10-01"
+    },
+    "https://claude.com/blog/auto-mode": {
+      "blog_slug": "auto-mode",
+      "processed_at": "2026-04-20T12:29:33Z",
+      "source_date": "2026-03-24"
+    },
+    "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
+      "blog_slug": "best-practices-for-using-claude-opus-4-7-with-claude-code",
+      "processed_at": "2026-04-20T12:29:33Z",
+      "source_date": "2026-04-16"
     }
   }
 }

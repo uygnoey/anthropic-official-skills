@@ -14,8 +14,8 @@ Es útil al actualizar de Opus 4.6 a 4.7 (o al configurar desde cero) y necesita
 - Cambios de comportamiento: la longitud de respuesta se ajusta a la complejidad, llama menos a herramientas y razona más, y genera menos subagentes por defecto—si necesitas más uso de herramientas o subagentes en paralelo, sé explícito.
 
 ## Recursos incluidos
-- 1 skill (opus-4-7-claude-code-best-practices)
-- 1 guide set (opus-4-7-claude-code-best-practices)
+- 1 skill (opus-4-7-code-best-practices)
+- 1 guide set (opus-4-7-code-best-practices)
 
 ## Fuente
 - Best practices for using Claude Opus 4.7 with Claude Code (2026-04-16): https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code
