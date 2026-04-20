@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate all artifacts in posts/ against Claude Code official specs.
+"""Validate every blog-slug folder at the repo root against Claude Code official specs.
 
 Checks:
 - Per post folder: description.{en,ko,es,ja}.md + source.json present.
@@ -23,6 +23,7 @@ Exit code 0 on pass, 1 on any failure. Prints all failures.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -89,8 +90,68 @@ def has_lang_switcher(path: Path) -> bool:
     return True
 
 
+COMPANION_DIRS = ("scripts", "templates", "references", "assets", "examples", "prompts", "data")
+_EXECUTABLE_EXTS = {".sh", ".bash", ".zsh", ".fish", ".py"}
+# Markdown link: [label](relative/path). Ignore absolute urls and in-page anchors.
+_MD_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)\s]+)\)")
+# Bare companion-dir reference in prose or code, e.g. `scripts/foo.py`, `templates/bar.md`.
+_BARE_REF_RE = re.compile(
+    r"(?<![/\w])(?:" + "|".join(COMPANION_DIRS) + r")/[\w./-]+"
+)
+
+
+def _is_external(path: str) -> bool:
+    return (
+        path.startswith("http://")
+        or path.startswith("https://")
+        or path.startswith("#")
+        or path.startswith("mailto:")
+    )
+
+
+def _check_companions(base_dir: Path, body: str, ctx: str, errs: list[str]) -> None:
+    """Ensure every local file or companion-dir path mentioned in the body exists.
+
+    - Markdown links `[label](path)` with non-external targets must resolve to a real file
+      inside or next to `base_dir` (paths escaping the containing folder are skipped).
+    - Bare references like `scripts/foo.py`, `templates/bar.md`, `references/baz.md`
+      inside prose or code blocks must also resolve.
+    - Shell/Python scripts in executable extensions must be `chmod +x`.
+    """
+    seen: set[str] = set()
+    base_root = base_dir.resolve()
+
+    def _record(rel: str) -> None:
+        if not rel or _is_external(rel):
+            return
+        clean = rel.split("#", 1)[0].split("?", 1)[0].strip()
+        if not clean or clean.startswith("/"):
+            return
+        # Ignore pure language-switcher siblings (./description.en.md etc.) that
+        # validators for those files already cover; they always exist when valid.
+        if clean in seen:
+            return
+        seen.add(clean)
+        target = (base_dir / clean).resolve()
+        try:
+            target.relative_to(base_root)
+        except ValueError:
+            return
+        if not target.exists():
+            errs.append(f"{ctx}: referenced companion file missing: {clean}")
+            return
+        if target.is_file() and target.suffix in _EXECUTABLE_EXTS:
+            if not os.access(target, os.X_OK):
+                errs.append(f"{ctx}: companion script '{clean}' is not executable (chmod +x)")
+
+    for m in _MD_LINK_RE.finditer(body):
+        _record(m.group(1))
+    for m in _BARE_REF_RE.finditer(body):
+        _record(m.group(0))
+
+
 def validate_post(post: Path, errs: list[str]) -> None:
-    ctx = f"posts/{post.name}"
+    ctx = post.name
 
     # descriptions (4 languages)
     for lang in LANGS:
@@ -143,6 +204,10 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{sctx}: missing '## Instructions' section")
             if "## Examples" not in body:
                 errs.append(f"{sctx}: missing '## Examples' section")
+            # Companion files: every relative path mentioned in SKILL.md must exist.
+            # Covers markdown links [label](path), bare paths like scripts/foo.py,
+            # templates/bar.md, references/baz.md, etc.
+            _check_companions(skill_folder, body, sctx, errs)
 
     # agents/*.md
     agents_dir = post / "agents"
@@ -157,6 +222,8 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{actx}: missing description")
             if not body.strip():
                 errs.append(f"{actx}: empty body")
+            # Agents can reference companion material (prompts/, references/, etc.)
+            _check_companions(agents_dir, body, actx, errs)
 
     # guides/ pairs in 4 langs
     guides_dir = post / "guides"
@@ -170,8 +237,11 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 continue
             stem, lang = parts[0], parts[1]
             stems.setdefault(stem, set()).add(lang)
+            gctx = f"{ctx}/guides/{g.name}"
             if not has_lang_switcher(g):
-                errs.append(f"{ctx}/guides/{g.name}: missing language switcher")
+                errs.append(f"{gctx}: missing language switcher")
+            # Guides can bundle references/, assets/, etc.
+            _check_companions(guides_dir, g.read_text(encoding="utf-8"), gctx, errs)
         for stem, langs_present in stems.items():
             missing = set(LANGS) - langs_present
             if missing:
@@ -194,6 +264,13 @@ def validate_post(post: Path, errs: list[str]) -> None:
             md_counterpart = hooks_dir / (hk.stem + ".md")
             if not md_counterpart.exists():
                 errs.append(f"{hctx}: missing companion {hk.stem}.md notes")
+            else:
+                _check_companions(
+                    hooks_dir,
+                    md_counterpart.read_text(encoding="utf-8"),
+                    f"{ctx}/hooks/{md_counterpart.name}",
+                    errs,
+                )
             # Scripts referenced from command strings must exist in the same hooks/ folder
             # (they can live under .claude/hooks/<name> in deployment, but here we want the
             # source of truth present next to the JSON).
@@ -237,6 +314,7 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{octx}: missing description")
             if not body.strip():
                 errs.append(f"{octx}: empty body")
+            _check_companions(ost_dir, body, octx, errs)
 
     # plugin/
     plugin_dir = post / "plugin"
@@ -256,17 +334,46 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{ctx}/plugin/.claude-plugin/plugin.json: invalid JSON ({e})")
 
 
+def _load_known_slugs(repo: Path) -> set[str]:
+    state = repo / "state" / "processed.json"
+    if not state.exists():
+        return set()
+    try:
+        data = json.loads(state.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return set()
+    slugs: set[str] = set()
+    for entry in (data.get("entries") or {}).values():
+        slug = entry.get("blog_slug")
+        if slug:
+            slugs.add(slug)
+    return slugs
+
+
 def main() -> int:
     repo = Path(__file__).resolve().parent.parent
-    posts_dir = repo / "posts"
-    if not posts_dir.exists():
-        print(f"No posts/ directory at {posts_dir}", file=sys.stderr)
-        return 1
+    known = _load_known_slugs(repo)
 
     errs: list[str] = []
-    for post in sorted(posts_dir.iterdir()):
-        if post.is_dir():
-            validate_post(post, errs)
+    post_dirs: list[Path] = []
+    for child in sorted(repo.iterdir()):
+        if not child.is_dir():
+            continue
+        if child.name.startswith("."):
+            continue
+        if child.name in {"scripts", "state"}:
+            continue
+        # Only folders that look like post dirs (have description.en.md) count,
+        # OR folders whose name is a known slug from state/processed.json.
+        if (child / "description.en.md").exists() or child.name in known:
+            post_dirs.append(child)
+
+    if not post_dirs:
+        print("No blog-slug folders found at repo root", file=sys.stderr)
+        return 1
+
+    for post in post_dirs:
+        validate_post(post, errs)
 
     if errs:
         print("VALIDATION FAILED:")

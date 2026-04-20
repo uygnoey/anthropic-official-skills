@@ -9,10 +9,10 @@ Claude 公式ブログの記事を、**記事の性格に合わせた Claude Cod
 
 ## 構成（記事 1 本ごと）
 
-ブログ記事 1 本 = `posts/<blog-slug>/` フォルダ 1 つ。サブフォルダは記事の性格に応じて条件付きで追加されます。
+ブログ記事 1 本 = `<blog-slug>/` フォルダ 1 つ。サブフォルダは記事の性格に応じて条件付きで追加されます。
 
 ```
-posts/<blog-slug>/
+<blog-slug>/
 ├── description.en.md               # 英語の解説（常時）
 ├── description.ko.md               # 韓国語の解説（常時）
 ├── description.es.md               # スペイン語の解説（常時）
@@ -109,7 +109,7 @@ posts/<blog-slug>/
 
 ```
 .
-├── posts/                       # 記事 1 本ごとに 1 フォルダ
+├── <blog-slug>/                       # 記事 1 本ごとに 1 フォルダ
 ├── scripts/
 │   ├── list_pending.py          # 未処理 URL の一覧
 │   ├── mark_processed.py        # URL を処理済みに記録

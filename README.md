@@ -10,10 +10,10 @@ A repository that converts official Claude blog posts into **Claude Code's offic
 
 ## Layout (per blog post)
 
-One blog post = one `posts/<blog-slug>/` folder. The subfolders below appear conditionally based on the post's character.
+One blog post = one `<blog-slug>/` folder. The subfolders below appear conditionally based on the post's character.
 
 ```
-posts/<blog-slug>/
+<blog-slug>/
 ├── description.en.md               # Human-readable English summary (always)
 ├── description.ko.md               # Korean summary (always)
 ├── description.es.md               # Spanish summary (always)
@@ -109,7 +109,7 @@ All guides and summaries are available in English, Korean, Spanish, and Japanese
 
 ```
 .
-├── posts/                       # One folder per blog post
+├── <blog-slug>/                       # One folder per blog post
 ├── scripts/
 │   ├── list_pending.py          # List pending URLs
 │   ├── mark_processed.py        # Mark a URL processed

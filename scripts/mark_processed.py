@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Mark a blog URL as processed in state/processed.json.
 
-The on-disk layout is one folder per blog post under posts/<blog-slug>/,
+The on-disk layout is one folder per blog post at the repo root as <blog-slug>/,
 where <blog-slug> is the last path segment of the blog URL.
 
 Usage:
@@ -36,7 +36,7 @@ def main() -> int:
     args = parser.parse_args()
 
     blog_slug = args.url.rstrip("/").rsplit("/", 1)[-1]
-    post_dir = ROOT / "posts" / blog_slug
+    post_dir = ROOT / blog_slug
 
     if STATE_FILE.exists():
         data = json.loads(STATE_FILE.read_text(encoding="utf-8"))

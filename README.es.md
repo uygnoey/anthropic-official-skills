@@ -10,10 +10,10 @@ Repositorio que convierte los posts oficiales del blog de Claude en **especifica
 
 ## Estructura (por post)
 
-Un post = una carpeta `posts/<blog-slug>/`. Las subcarpetas aparecen de forma condicional según el carácter del post.
+Un post = una carpeta `<blog-slug>/`. Las subcarpetas aparecen de forma condicional según el carácter del post.
 
 ```
-posts/<blog-slug>/
+<blog-slug>/
 ├── description.en.md               # Resumen en inglés (siempre)
 ├── description.ko.md               # Resumen en coreano (siempre)
 ├── description.es.md               # Resumen en español (siempre)
@@ -110,7 +110,7 @@ Todas las guías y resúmenes están disponibles en inglés, coreano, español y
 
 ```
 .
-├── posts/                       # Una carpeta por post
+├── <blog-slug>/                       # Una carpeta por post
 ├── scripts/
 │   ├── list_pending.py          # Lista de URLs pendientes
 │   ├── mark_processed.py        # Marca una URL como procesada

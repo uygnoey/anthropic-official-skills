@@ -2,8 +2,8 @@
 """Normalize the language-switcher line so that the link matching the file's
 own language becomes bold plain text (not a link). Applies to:
   - README.{md,ko.md,es.md,ja.md}
-  - posts/**/description.{en,ko,es,ja}.md
-  - posts/**/guides/*.{en,ko,es,ja}.md
+  - <blog-slug>/description.{en,ko,es,ja}.md
+  - <blog-slug>/guides/*.{en,ko,es,ja}.md
 
 README.md is treated as English.
 """
@@ -82,15 +82,17 @@ def normalize_file(path: Path) -> bool:
     if not lines:
         return False
     first = lines[0]
-    # Look within the first 3 non-empty lines for an existing switcher
+    # Look within the first 3 lines for an existing switcher. Accept any line
+    # that mentions all four language labels (as link or bold).
     switcher_idx = None
     for i in range(min(3, len(lines))):
         s = lines[i].strip()
-        if "[English]" in s and "[한국어]" in s and "[Español]" in s and "[日本語]" in s:
-            switcher_idx = i
-            break
-        if s.startswith("**English**") or s.startswith("**한국어**") \
-                or s.startswith("**Español**") or s.startswith("**日本語**"):
+        ok = True
+        for label in ("English", "한국어", "Español", "日本語"):
+            if f"[{label}]" not in s and f"**{label}**" not in s:
+                ok = False
+                break
+        if ok and s:
             switcher_idx = i
             break
     if switcher_idx is None:
@@ -101,11 +103,16 @@ def normalize_file(path: Path) -> bool:
         return False
 
     existing = lines[switcher_idx]
-    targets = existing_link_targets(existing)
-    # Fill in any missing targets (e.g. current language was already bolded)
+    # Always derive targets from the current filename so a renamed stem fixes
+    # stale references automatically.
+    targets: dict[str, str] = {code: infer_target_for_lang(path, code) for code, _ in LANGS}
+    # Fallback: if inference yields nothing (unknown pattern), fall back to any
+    # link present in the existing switcher line.
     for code, _ in LANGS:
-        if code not in targets or not targets[code]:
-            targets[code] = infer_target_for_lang(path, code)
+        if not targets[code]:
+            existing_targets = existing_link_targets(existing)
+            if code in existing_targets:
+                targets[code] = existing_targets[code]
 
     new_line = build_line(lang, targets)
     if existing.strip() == new_line.strip():
@@ -123,13 +130,20 @@ def main():
         p = ROOT / name
         if p.exists():
             candidates.append(p)
-    posts = ROOT / "posts"
-    if posts.exists():
-        for p in posts.rglob("description.*.md"):
+    # Every top-level blog-slug folder is a post root.
+    for child in ROOT.iterdir():
+        if not child.is_dir() or child.name.startswith(".") \
+                or child.name in {"scripts", "state"}:
+            continue
+        if not (child / "description.en.md").exists():
+            continue
+        for p in child.glob("description.*.md"):
             candidates.append(p)
-        for p in posts.rglob("guides/*.md"):
-            if re.match(r".+\.(en|ko|es|ja)\.md$", p.name):
-                candidates.append(p)
+        guides = child / "guides"
+        if guides.exists():
+            for p in guides.glob("*.md"):
+                if re.match(r".+\.(en|ko|es|ja)\.md$", p.name):
+                    candidates.append(p)
 
     changed = 0
     for p in candidates:

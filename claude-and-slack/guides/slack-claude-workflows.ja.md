@@ -1,4 +1,4 @@
-[English](./slack-slack-integration.en.md) · [한국어](./slack-slack-integration.ko.md) · [Español](./slack-slack-integration.es.md) · **日本語**
+[English](./slack-claude-workflows.en.md) · [한국어](./slack-claude-workflows.ko.md) · [Español](./slack-claude-workflows.es.md) · **日本語**
 
 # Slack で Claude を使う
 
