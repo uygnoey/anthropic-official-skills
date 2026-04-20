@@ -1,3 +1,5 @@
+[English](./frontend-design-skills-playbook.en.md) · [한국어](./frontend-design-skills-playbook.ko.md) · [Español](./frontend-design-skills-playbook.es.md) · [日本語](./frontend-design-skills-playbook.ja.md)
+
 # Frontend design through Skills: a practical playbook
 
 This guide summarizes the concrete prompting and reuse patterns described in the source post, oriented toward turning them into a reusable Skill you can load on demand.

@@ -1,94 +1,119 @@
+[English](./README.md) · [한국어](./README.ko.md) · [Español](./README.es.md) · [日本語](./README.ja.md)
+
 # skills-from-claude-blog
 
 > Artifacts distilled from posts on [claude.com/blog](https://www.claude.com/blog),
-> organized by Claude's official specs.
+> organized by Claude Code's official extension specs.
 > Not affiliated with Anthropic — this is a third-party summary project.
 
-Claude 공식 블로그의 글 하나하나를 **글의 성격에 맞는 공식 규격**으로 변환해 모은 저장소입니다. 4시간마다 배치가 돌며 신규 글과 미처리 글을 찾아 반영합니다.
+A repository that converts official Claude blog posts into **Claude Code's official specs matching each post's character**. A batch runs every 4 hours to reflect new posts and unprocessed ones.
 
 ## Layout (per blog post)
 
-블로그 글 하나 = `posts/<blog-slug>/` 폴더 하나. 글의 성격에 따라 안에 들어가는 artifact가 달라집니다.
+One blog post = one `posts/<blog-slug>/` folder. The subfolders below appear conditionally based on the post's character.
 
 ```
 posts/<blog-slug>/
-├── description.ko.md             # 사람용 한국어 해설 (항상)
-├── description.en.md             # 사람용 영어 해설 (항상)
-├── source.json                   # 원문 URL·제목·게시일 (항상)
+├── description.en.md               # Human-readable English summary (always)
+├── description.ko.md               # Korean summary (always)
+├── description.es.md               # Spanish summary (always)
+├── description.ja.md               # Japanese summary (always)
+├── source.json                     # Source metadata (always)
 │
-├── skills/<skill-name>/          # Agent Skills 규격 — 재사용 능력형 글이면 생성
-│   └── SKILL.md
-│
-├── agents/<agent-name>.md        # Claude Code Subagent 규격 — 글에 에이전트 역할이 명시되면 생성
-│
-└── guides/<name>.en.md           # 자유 형식 — 배포·방법론·아키텍처 성격 글이면 생성
-    <name>.ko.md
+├── skills/<name>/SKILL.md          # A. Agent Skills spec
+├── agents/<name>.md                # B. Claude Code Subagent spec
+├── guides/<name>.{en,ko,es,ja}.md  # C. Free-form multilingual guides
+├── hooks/<name>.json +.md          # D. Claude Code Hooks JSON + notes
+├── output-styles/<name>.md         # E. Output Style spec
+└── plugin/                         # G. Plugin bundle (rare)
+    ├── .claude-plugin/plugin.json
+    └── skills|agents|hooks|output-styles/...
 ```
 
-### 규격별 공식 문서
-- [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) — `SKILL.md`는 이 규격
-- [Claude Code Subagents](https://code.claude.com/docs/en/sub-agents) — `agents/*.md`는 이 규격
+### Official spec references
+- [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) — `SKILL.md`
+- [Claude Code Subagents](https://code.claude.com/docs/en/sub-agents) — `agents/<name>.md`
+- [Claude Code Hooks](https://code.claude.com/docs/en/hooks) — `hooks/<name>.json`
+- [Output Styles](https://code.claude.com/docs/en/output-styles) — `output-styles/<name>.md`
+- [Plugins](https://code.claude.com/docs/en/plugins) — `plugin/` bundle
 
-### 규격 선택 기준
-각 블로그 글을 읽고 아래 중 해당되는 것을 **모두** 선택:
-- **A. 재사용 능력형** (문서 처리, 코드 작업, 특정 워크플로우 설명) → `skills/<name>/SKILL.md`
-- **B. 에이전트 역할이 명시된 글** (named 역할 2개 이상) → `agents/<name>.md` 파일들 추가
-- **C. 배포·아키텍처·방법론 성격** (스테이지, 프레임워크, 체크리스트, 사례) → `guides/<name>.{en,ko}.md` 추가
+### Spec selection matrix
 
-원문에 없는 역할·가이드를 지어내지 않습니다.
+| Verdict | Trigger question | Artifact |
+|---|---|---|
+| **A. Skill** | Does the post describe a reusable **pattern / principle / framework / how-to**? | `skills/<name>/SKILL.md` |
+| **B. Subagent** | Does the post explicitly define **2+ named agent roles**? | `agents/<name>.md` each |
+| **C. Guide** | Is the post **deployment / architecture / methodology / survey** in character? | `guides/<name>.{en,ko,es,ja}.md` |
+| **D. Hook** | Does the post automate a **lifecycle event** (PreToolUse, PostToolUse, Stop, SessionStart…)? | `hooks/<name>.json` + `.md` notes |
+| **E. Output Style** | Does the post define a **full system-prompt tone/role/format swap** (not a one-line tip)? | `output-styles/<name>.md` |
+| **G. Plugin** | Does the post center on **bundling multiple artifacts for distribution**? | whole `plugin/` bundle |
+
+- **F. Slash Commands are not produced.** Official docs mark `.claude/commands/` as legacy and recommend `.claude/skills/`, so posts covering slash commands are **converted into Skills**.
+- Multiple verdicts applying at once is normal. Produce all.
+- When uncertain, **default to including A**. Skills are the most practically reusable.
+- **Never invent roles, patterns, or scripts that aren't in the source.** If unsure, quote the source.
 
 ## Drop-in usage
 
-이 저장소의 artifact들은 그대로 `.claude/` 아래 해당 위치에 복사해 사용할 수 있습니다.
+Each artifact can be copied into a project as-is.
 
-- Skill을 쓰려면: `posts/<blog>/skills/<name>/` → `.claude/skills/<name>/` 또는 `~/.claude/skills/<name>/`
-- Subagent를 쓰려면: `posts/<blog>/agents/<name>.md` → `.claude/agents/<name>.md` 또는 `~/.claude/agents/<name>.md`
+| Artifact | Destination |
+|---|---|
+| `skills/<name>/` | `.claude/skills/<name>/` or `~/.claude/skills/<name>/` |
+| `agents/<name>.md` | `.claude/agents/<name>.md` or `~/.claude/agents/<name>.md` |
+| `hooks/<name>.json` content | Merge into the `hooks` field of `.claude/settings.json` |
+| `output-styles/<name>.md` | `.claude/output-styles/<name>.md` |
+| `plugin/` | Load with `--plugin-dir ./plugin` |
 
 ## Index
 
-| Blog post | Artifacts |
-|---|---|
-| [Harnessing Claude's Intelligence \| 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) | 2026-04-02 | 1 skill + 1 guide (en/ko) |
+| Blog post | Published | Artifacts |
+|---|---|---|
+| [Subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) | 2026-04-07 | 2 skills + 1 agent + 1 hook |
+| [Harnessing Claude's Intelligence \| 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) | 2026-04-02 | 1 skill + 1 guide |
 | [Claude builds interactive visuals right in your conversation](https://claude.com/blog/claude-builds-visuals) | 2026-03-12 | 1 skill |
-| [How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026) | 2025-12-09 | 1 guide (en/ko) |
-| [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills) | 2025-11-12 | 1 skill + 1 guide (en/ko) |
-| [claude-code-on-the-web](posts/claude-code-on-the-web/) (2025-10-20) | 1 skill |
-| [building-ai-agents-in-financial-services](posts/building-ai-agents-in-financial-services/) (2025-10-30) | 1 skill + 3 agents + 1 guide (en/ko) |
-| [best-practices-for-prompt-engineering](posts/best-practices-for-prompt-engineering/) (2025-11-10) | 1 skill |
-| [using-claude-md-files](posts/using-claude-md-files/) (2025-11-25) | 1 skill |
-| [subagents-in-claude-code](posts/subagents-in-claude-code/) (2026-04-07) | 1 skill |
+| [How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026) | 2025-12-09 | 1 guide |
+| [Using CLAUDE.md files](https://claude.com/blog/using-claude-md-files) | 2025-11-25 | 1 skill |
+| [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills) | 2025-11-12 | 1 skill + 1 guide |
+| [Best practices for prompt engineering](https://claude.com/blog/best-practices-for-prompt-engineering) | 2025-11-10 | 1 skill |
+| [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) | 2025-10-30 | 1 skill + 3 agents + 1 guide |
+| [Claude Code on the web](https://claude.com/blog/claude-code-on-the-web) | 2025-10-20 | 1 skill |
 
+All guides and summaries are available in English, Korean, Spanish, and Japanese. Click the language switcher at the top of each file.
 
 ## Batch operation
 
-- Perplexity Computer cron이 4시간마다 실행
-- `https://www.claude.com/sitemap.xml`과 `/blog` 인덱스에서 글 목록 수집
-- 우선순위: (1) 마지막 배치 이후 신규 글 (최신순) → (2) 미처리 기존 글 (오래된순) → (3) 게시일 미상
-- 한 번에 최대 2개 글을 처리. 결과는 `git commit && push`로 자동 반영.
+- A Perplexity Computer cron runs every 4 hours.
+- Post list is harvested from `https://www.claude.com/sitemap.xml` and the `/blog` index.
+- Priority: new since last run (newest → oldest) → unprocessed older posts (oldest → newest) → unknown pub-date.
+- Up to 2 posts per run.
 
 ## Authoring guidelines
 
-1. `SKILL.md`와 `agents/*.md`는 공식 규격이 영문 기반이므로 **영문**으로 작성.
-2. `name` 필드에 `claude`, `anthropic` 예약어 금지. 소문자·숫자·하이픈만, 64자 이하.
-3. `description`은 3인칭, 1024자 이하, "무엇을 한다 + 언제 사용해야 한다" 둘 다 포함.
-4. `guides/`는 사람용이므로 `.en.md`와 `.ko.md` 두 언어로 작성.
-5. 사람용 해설은 post 루트의 `description.ko.md` / `description.en.md`에 작성.
-6. **원문에 없는 내용은 지어내지 않는다.** 확신 없으면 "원문 참고"로 넘긴다.
+1. `SKILL.md` and `agents/*.md` follow the official spec (English).
+2. Hook JSON reflects the post's behavior verbatim; shell commands cite the source in comments.
+3. Output Styles copy the post's tone/role/format; if unsure, downgrade to a guide.
+4. `name` fields (Skill, Subagent, Output Style, Plugin): `^[a-z0-9-]+$`, ≤64 chars, forbidden reserved words `claude`, `anthropic`.
+5. `description` is third-person and ≤1024 chars (Skill / Subagent).
+6. `guides/` are authored in all four languages (`.en.md`, `.ko.md`, `.es.md`, `.ja.md`) with a language switcher at the top.
+7. Human summaries (`description.*.md`) cover the same four languages with a language switcher.
+8. **Never invent content not in the source.** If unsure, fall back to "see source".
 
 ## Files
 
 ```
 .
-├── posts/                       # 블로그 글 하나당 폴더 하나
+├── posts/                       # One folder per blog post
 ├── scripts/
-│   ├── list_pending.py          # 대기 목록 조회 (우선순위 반영)
-│   ├── mark_processed.py        # 처리 완료 기록
-│   └── update_last_run.py       # 배치 실행 타임스탬프
+│   ├── list_pending.py          # List pending URLs
+│   ├── mark_processed.py        # Mark a URL processed
+│   ├── update_last_run.py       # Stamp batch timestamp
+│   └── validate.py              # Pre-commit validator for all specs
 └── state/
-    └── processed.json           # 처리된 URL 기록 + last_run_at
+    └── processed.json           # Processed URLs + last_run_at
 ```
 
 ## License
 
-- 원문(Claude 블로그 글)의 저작권은 Anthropic에 있습니다. 이 저장소는 학습·참고 목적의 요약·인용만 포함합니다.
-- 저장소 자체 코드(스크립트, 구조)는 MIT License.
+- Source posts (Claude blog) are © Anthropic. This repo contains summaries and quotations for study and reference only.
+- Repository code: MIT License.

@@ -1,3 +1,5 @@
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+
 # Using Subagents in Claude Code
 
 ## What this skill is
@@ -74,6 +76,11 @@ The review should ALWAYS check for:
 - `/tasks` — inspect running subagents.
 - Don't over-populate specialists; too many candidates destabilize auto-delegation.
 - Subagents can't communicate. Use Agent Teams when they must.
+
+## Bundled resources
+- Skills (2): `skills/using-subagents/SKILL.md`, `skills/deep-review/SKILL.md`
+- Agent (1): `agents/security-reviewer.md`
+- Hook (1): `hooks/check-tests.json` / `hooks/check-tests.md`
 
 ## Source
 Distilled from [How and when to use subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) (2026-04-07). Defer to the original for authoritative guidance.

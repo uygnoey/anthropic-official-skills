@@ -1,3 +1,5 @@
+[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
+
 # Deployment Playbook: AI Agents in Financial Services
 
 Detailed reference distilled from [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (Claude blog, published 2025-10-30). Load this file only when the user asks for deeper guidance than SKILL.md provides — e.g., integration architecture, staged rollout planning, risk-control design, or named industry examples.

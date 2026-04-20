@@ -1,3 +1,5 @@
+[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
+
 # 배포 플레이북: 금융 서비스 AI 에이전트
 
 [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (Claude 블로그, 게시 2025-10-30)에서 정리한 상세 참고 자료. SKILL.md의 단계 목록보다 더 깊은 지침(통합 아키텍처, 단계별 롤아웃 계획, 리스크 통제 설계, 업계 사례)이 필요할 때만 이 파일을 읽어주세요.

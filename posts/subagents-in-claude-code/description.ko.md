@@ -1,3 +1,5 @@
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+
 # Claude Code에서 Subagent 사용하기
 
 ## 이 스킬이 뭔가요
@@ -80,6 +82,11 @@ Return findings as a prioritized list with file:line references.
 - `/tasks` 로 진행 중인 subagent 상태를 확인한다.
 - 전문 에이전트를 과하게 만들면 자동 위임 판단이 흔들린다 — 꼭 필요한 역할만.
 - Subagent 사이엔 직접 통신이 없으니, 협력이 필요하면 Agent Teams를 쓴다.
+
+## 번들 리소스
+- Skills (2개): `skills/using-subagents/SKILL.md`, `skills/deep-review/SKILL.md`
+- Agent (1개): `agents/security-reviewer.md`
+- Hook (1개): `hooks/check-tests.json` / `hooks/check-tests.md`
 
 ## 출처
 [How and when to use subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) (2026-04-07) 요약. 권위 있는 사용법은 원문을 참조하세요.

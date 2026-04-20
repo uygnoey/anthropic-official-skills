@@ -1,3 +1,5 @@
+[English](./three-patterns-app-harness.en.md) · [한국어](./three-patterns-app-harness.ko.md) · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
+
 # Three patterns for building apps that keep pace with Claude
 
 This guide summarizes three patterns from the source post for designing applications (including agents) that keep up with Claude’s evolving capabilities while balancing latency and cost.

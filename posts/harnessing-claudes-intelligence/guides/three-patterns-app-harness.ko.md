@@ -1,3 +1,5 @@
+[English](./three-patterns-app-harness.en.md) · [한국어](./three-patterns-app-harness.ko.md) · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
+
 # Claude의 지능을 따라잡는 앱 설계 3가지 패턴
 
 이 가이드는 원문 글에서 제시한 3가지 패턴을 정리해, Claude의 역량이 빠르게 변해도 지연(latency)·비용(cost) 균형을 유지하며 앱(에이전트 포함)을 설계하는 데 참고할 수 있게 합니다.

@@ -1,3 +1,5 @@
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+
 # How enterprises are building AI agents in 2026
 
 ## What is this post?

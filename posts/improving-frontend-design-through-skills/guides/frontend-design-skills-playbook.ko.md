@@ -1,3 +1,5 @@
+[English](./frontend-design-skills-playbook.en.md) · [한국어](./frontend-design-skills-playbook.ko.md) · [Español](./frontend-design-skills-playbook.es.md) · [日本語](./frontend-design-skills-playbook.ja.md)
+
 # Skills로 프론트엔드 디자인을 개선하기: 실전 플레이북
 
 이 가이드는 원문 글에서 제시한 프롬프트 구성/재사용 패턴을, 필요할 때만 불러 쓰는 Skill 형태로 정리한 것입니다.

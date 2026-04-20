@@ -1,3 +1,5 @@
+[English](./enterprise-agents-2026-brief.en.md) · [한국어](./enterprise-agents-2026-brief.ko.md) · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
+
 # 2026년 기업 AI 에이전트: 배포 현황 요약(설문 브리프)
 
 이 가이드는 원문 글의 핵심 내용을, 기획 및 이해관계자 정렬에 쓰기 좋은 형태로 정리한 것입니다.
