@@ -48,6 +48,16 @@
       "blog_slug": "harnessing-claudes-intelligence",
       "processed_at": "2026-04-20T00:20:11Z",
       "source_date": "2026-04-02"
+    },
+    "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense": {
+      "blog_slug": "preparing-your-security-program-for-ai-accelerated-offense",
+      "processed_at": "2026-04-20T04:36:00Z",
+      "source_date": "2026-04-10"
+    },
+    "https://claude.com/blog/claude-managed-agents": {
+      "blog_slug": "claude-managed-agents",
+      "processed_at": "2026-04-20T04:36:00Z",
+      "source_date": "2026-04-08"
     }
   }
 }
