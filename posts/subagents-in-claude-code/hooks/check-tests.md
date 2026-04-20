@@ -4,10 +4,20 @@ Blocks the main Claude Code agent from ending its turn while `npm test` is faili
 
 ## Install
 
-1. Save `check-tests.sh` into your project as `.claude/hooks/check-tests.sh` and `chmod +x` it.
-2. Merge `check-tests.json` into your `.claude/settings.json` (or user-level `~/.claude/settings.json`).
+1. Copy [`check-tests.sh`](./check-tests.sh) into your project as `.claude/hooks/check-tests.sh` and `chmod +x` it.
+2. Merge [`check-tests.json`](./check-tests.json) into your `.claude/settings.json` (or user-level `~/.claude/settings.json`).
 
-## check-tests.sh
+One-liner from the repo root (adjust the source path to wherever you cloned this repo):
+
+```bash
+mkdir -p .claude/hooks
+cp path/to/skills-from-claude-blog/posts/subagents-in-claude-code/hooks/check-tests.sh .claude/hooks/check-tests.sh
+chmod +x .claude/hooks/check-tests.sh
+```
+
+## Script reference
+
+The executable script lives in [`check-tests.sh`](./check-tests.sh) next to this file. The full listing:
 
 ```bash
 #!/bin/bash

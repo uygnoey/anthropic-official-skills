@@ -189,6 +189,35 @@ def validate_post(post: Path, errs: list[str]) -> None:
             md_counterpart = hooks_dir / (hk.stem + ".md")
             if not md_counterpart.exists():
                 errs.append(f"{hctx}: missing companion {hk.stem}.md notes")
+            # Scripts referenced from command strings must exist in the same hooks/ folder
+            # (they can live under .claude/hooks/<name> in deployment, but here we want the
+            # source of truth present next to the JSON).
+            for event_entries in data.get("hooks", {}).values():
+                if not isinstance(event_entries, list):
+                    continue
+                for entry in event_entries:
+                    for inner in entry.get("hooks", []) if isinstance(entry, dict) else []:
+                        if not isinstance(inner, dict):
+                            continue
+                        cmd = inner.get("command", "")
+                        if not isinstance(cmd, str):
+                            continue
+                        # Look for a /<name>.<ext> reference to a script we should ship.
+                        for stem in (hk.stem,):
+                            for ext in (".sh", ".bash", ".zsh", ".fish", ".ps1", ".py", ".js", ".ts"):
+                                ref = f"{stem}{ext}"
+                                if ref in cmd:
+                                    script_path = hooks_dir / ref
+                                    if not script_path.exists():
+                                        errs.append(
+                                            f"{hctx}: command references '{ref}' but no such file in hooks/"
+                                        )
+                                    elif ext in (".sh", ".bash", ".zsh", ".fish", ".py"):
+                                        import os as _os
+                                        if not _os.access(script_path, _os.X_OK):
+                                            errs.append(
+                                                f"{hctx}: companion script {ref} must be executable (chmod +x)"
+                                            )
 
     # output-styles/
     ost_dir = post / "output-styles"
