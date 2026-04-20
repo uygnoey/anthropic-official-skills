@@ -98,6 +98,16 @@
       "blog_slug": "meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
       "processed_at": "2026-04-20T19:02:43Z",
       "source_date": "2026-04-20"
+    },
+    "https://claude.com/blog/seeing-like-an-agent": {
+      "blog_slug": "seeing-like-an-agent",
+      "processed_at": "2026-04-20T23:07:03Z",
+      "source_date": "2026-04-10"
+    },
+    "https://claude.com/blog/multi-agent-coordination-patterns": {
+      "blog_slug": "multi-agent-coordination-patterns",
+      "processed_at": "2026-04-20T23:07:03Z",
+      "source_date": "2026-04-10"
     }
   }
 }
