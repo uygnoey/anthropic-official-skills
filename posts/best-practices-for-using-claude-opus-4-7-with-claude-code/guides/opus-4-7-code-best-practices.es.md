@@ -1,4 +1,4 @@
-[English](./opus-4-7-code-best-practices.en.md) · [한국어](./opus-4-7-code-best-practices.ko.md) · [Español](./opus-4-7-code-best-practices.es.md) · [日本語](./opus-4-7-code-best-practices.ja.md)
+[English](./opus-4-7-code-best-practices.en.md) · [한국어](./opus-4-7-code-best-practices.ko.md) · **Español** · [日本語](./opus-4-7-code-best-practices.ja.md)
 
 # Guía: Mejores prácticas para Opus 4.7 en Claude Code
 

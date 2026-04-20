@@ -1,4 +1,4 @@
-[English](./enterprise-agents-2026-brief.en.md) · [한국어](./enterprise-agents-2026-brief.ko.md) · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
+[English](./enterprise-agents-2026-brief.en.md) · [한국어](./enterprise-agents-2026-brief.ko.md) · **Español** · [日本語](./enterprise-agents-2026-brief.ja.md)
 
 # Agentes de IA empresariales en 2026: instantánea de despliegue (resumen de encuesta)
 

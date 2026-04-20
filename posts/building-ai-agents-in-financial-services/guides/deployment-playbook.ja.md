@@ -1,4 +1,4 @@
-[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
+[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · **日本語**
 
 # デプロイメント・プレイブック：金融サービスにおけるAIエージェント
 

@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · **Español** · [日本語](./description.ja.md)
 
 ## ¿De qué trata este post?
 Explica cómo se comporta Opus 4.7 en Claude Code y cómo ajustar prompts y configuraciones (niveles de esfuerzo, pensamiento adaptativo, estructura de sesión) para mejorar calidad y eficiencia de tokens.

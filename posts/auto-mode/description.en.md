@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 ## What is this post?
 Introduces Auto mode in Claude Code: a permissions mode where Claude can approve many tool actions automatically while using safeguards to block risky behavior.

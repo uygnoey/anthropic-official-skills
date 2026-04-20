@@ -1,4 +1,4 @@
-[English](./slack-slack-integration.en.md) · [한국어](./slack-slack-integration.ko.md) · [Español](./slack-slack-integration.es.md) · [日本語](./slack-slack-integration.ja.md)
+[English](./slack-slack-integration.en.md) · [한국어](./slack-slack-integration.ko.md) · **Español** · [日本語](./slack-slack-integration.ja.md)
 
 # Cómo usar Claude con Slack
 

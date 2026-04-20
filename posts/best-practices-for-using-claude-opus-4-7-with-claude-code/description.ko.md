@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 ## 이 글이 뭔가요
 Claude Code에서 Opus 4.7의 동작 특성과, 프롬프트·설정(effort 레벨, adaptive thinking, 세션 구성)을 조정해 품질과 토큰 효율을 높이는 방법을 설명합니다.

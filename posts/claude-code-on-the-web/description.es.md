@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · **Español** · [日本語](./description.ja.md)
 
 # ¿De qué trata esta habilidad?
 Esta habilidad te ayuda a delegar tareas de programación desde un entorno de trabajo basado en navegador conectado a GitHub, donde cada tarea se ejecuta en un entorno cloud aislado y puede generar una pull request.

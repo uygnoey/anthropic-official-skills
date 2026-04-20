@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # Improving frontend design through Skills
 

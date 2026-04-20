@@ -1,4 +1,4 @@
-[English](./opus-4-7-code-best-practices.en.md) · [한국어](./opus-4-7-code-best-practices.ko.md) · [Español](./opus-4-7-code-best-practices.es.md) · [日本語](./opus-4-7-code-best-practices.ja.md)
+[English](./opus-4-7-code-best-practices.en.md) · **한국어** · [Español](./opus-4-7-code-best-practices.es.md) · [日本語](./opus-4-7-code-best-practices.ja.md)
 
 # 가이드: Claude Code에서 Opus 4.7 활용 모범 사례
 

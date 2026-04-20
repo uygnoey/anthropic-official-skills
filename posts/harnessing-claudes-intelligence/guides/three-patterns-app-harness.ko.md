@@ -1,4 +1,4 @@
-[English](./three-patterns-app-harness.en.md) · [한국어](./three-patterns-app-harness.ko.md) · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
+[English](./three-patterns-app-harness.en.md) · **한국어** · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
 
 # Claude의 지능을 따라잡는 앱 설계 3가지 패턴
 

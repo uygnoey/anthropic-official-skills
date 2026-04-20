@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · **Español** · [日本語](./description.ja.md)
 
 # ¿De qué trata esta habilidad?
 Esta habilidad te ayuda a planificar y desplegar agentes de IA en servicios financieros, con foco en la integración de sistemas, los requisitos regulatorios y los controles de riesgo en tiempo real.

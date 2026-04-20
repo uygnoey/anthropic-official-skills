@@ -1,4 +1,4 @@
-[English](./three-patterns-app-harness.en.md) · [한국어](./three-patterns-app-harness.ko.md) · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
+**English** · [한국어](./three-patterns-app-harness.ko.md) · [Español](./three-patterns-app-harness.es.md) · [日本語](./three-patterns-app-harness.ja.md)
 
 # Three patterns for building apps that keep pace with Claude
 

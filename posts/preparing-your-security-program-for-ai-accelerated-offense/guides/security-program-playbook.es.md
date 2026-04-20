@@ -1,4 +1,4 @@
-[English](./security-program-playbook.en.md) · [한국어](./security-program-playbook.ko.md) · [Español](./security-program-playbook.es.md) · [日本語](./security-program-playbook.ja.md)
+[English](./security-program-playbook.en.md) · [한국어](./security-program-playbook.ko.md) · **Español** · [日本語](./security-program-playbook.ja.md)
 
 # Guía de operaciones de seguridad para la ofensa acelerada por IA
 

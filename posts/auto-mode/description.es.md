@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · **Español** · [日本語](./description.ja.md)
 
 ## ¿De qué trata este post?
 Presenta el modo Auto en Claude Code: un modo de permisos en el que Claude puede aprobar automáticamente muchas acciones de herramientas, con salvaguardas que bloquean comportamientos riesgosos.

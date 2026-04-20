@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # What is this skill?
 This skill helps you plan and deploy AI agents in financial services by focusing on system integration, regulatory requirements, and controls for real-time risk.

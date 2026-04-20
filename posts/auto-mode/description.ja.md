@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 ## この記事について
 Claude CodeのAuto mode（自動モード）を紹介します。Claudeが多くのツール操作を自動承認しつつ、安全策でリスクの高い操作をブロックします。

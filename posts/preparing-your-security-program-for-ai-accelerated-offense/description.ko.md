@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # AI 가속 공격 시대의 보안 프로그램 준비
 

@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 # この記事について
 This post announces a redesigned Claude Code desktop app aimed at running more tasks in parallel, with a new session sidebar, drag-and-drop multi-pane layout, integrated terminal and file editor, and performance improvements.

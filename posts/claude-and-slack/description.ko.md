@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # 이 글이 뭔가요
 이 글은 Slack에서 Claude를 사용하는 두 가지 방법(Slack에 Claude 앱 설치로 채널/스레드에서 도움 받기, Claude 설정에서 Slack 커넥터를 연결해 대화/파일을 검색·참조하기)을 설명합니다.

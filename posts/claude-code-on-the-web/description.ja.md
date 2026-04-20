@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 # このスキルについて
 このスキルは、GitHub に接続したブラウザベースのワークスペースからコーディングタスクを委任し、各タスクを隔離されたクラウド環境で実行してプルリクエストとして出力する流れを支援します。

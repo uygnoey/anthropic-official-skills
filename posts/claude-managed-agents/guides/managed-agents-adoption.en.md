@@ -1,4 +1,4 @@
-[English](./managed-agents-adoption.en.md) · [한국어](./managed-agents-adoption.ko.md) · [Español](./managed-agents-adoption.es.md) · [日本語](./managed-agents-adoption.ja.md)
+**English** · [한국어](./managed-agents-adoption.ko.md) · [Español](./managed-agents-adoption.es.md) · [日本語](./managed-agents-adoption.ja.md)
 
 # Claude Managed Agents adoption playbook
 

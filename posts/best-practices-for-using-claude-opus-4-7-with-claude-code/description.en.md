@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 ## What is this post?
 Explains how Opus 4.7 behaves in Claude Code and how to tune prompts and settings (effort levels, adaptive thinking, session structure) for better quality and token efficiency.

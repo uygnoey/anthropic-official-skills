@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # 2026년 기업들은 AI 에이전트를 어떻게 만들고 있나
 

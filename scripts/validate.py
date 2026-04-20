@@ -29,7 +29,7 @@ from pathlib import Path
 
 NAME_RE = re.compile(r"^[a-z0-9-]+$")
 RESERVED = {"claude", "anthropic"}
-LANG_SWITCHER_TOKENS = ("[English]", "[한국어]", "[Español]", "[日本語]")
+LANG_SWITCHER_LABELS = ("English", "한국어", "Español", "日本語")
 LANGS = ("en", "ko", "es", "ja")
 
 
@@ -76,12 +76,17 @@ def check_name(name: str, ctx: str, errs: list[str]) -> None:
 
 
 def has_lang_switcher(path: Path) -> bool:
+    """Accept either linked form `[Label](...)` or bolded current-language form
+    `**Label**` for each of the four language labels."""
     try:
         head = path.read_text(encoding="utf-8").splitlines()[:3]
     except Exception:
         return False
     joined = " ".join(head)
-    return all(tok in joined for tok in LANG_SWITCHER_TOKENS)
+    for label in LANG_SWITCHER_LABELS:
+        if f"[{label}]" not in joined and f"**{label}**" not in joined:
+            return False
+    return True
 
 
 def validate_post(post: Path, errs: list[str]) -> None:

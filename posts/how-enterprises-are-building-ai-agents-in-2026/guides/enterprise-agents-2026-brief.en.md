@@ -1,4 +1,4 @@
-[English](./enterprise-agents-2026-brief.en.md) · [한국어](./enterprise-agents-2026-brief.ko.md) · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
+**English** · [한국어](./enterprise-agents-2026-brief.ko.md) · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
 
 # Enterprise AI agents in 2026: deployment snapshot (survey brief)
 

@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 ## 이 글이 뭔가요
 Claude Code의 Auto mode(자동 모드)를 소개합니다. Claude가 많은 도구 실행을 자동으로 승인하되, 위험한 행동을 막기 위한 안전장치를 함께 적용하는 권한 모드입니다.

@@ -1,4 +1,4 @@
-[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
+[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · **Español** · [日本語](./deployment-playbook.ja.md)
 
 # Manual de despliegue: agentes de IA en servicios financieros
 

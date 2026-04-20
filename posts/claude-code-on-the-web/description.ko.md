@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # 이 스킬이 뭔가요
 이 스킬은 GitHub 저장소를 연결한 뒤, 브라우저에서 코딩 작업을 위임하고(클라우드 격리 환경에서 실행) 결과를 PR로 정리하는 흐름을 돕습니다.

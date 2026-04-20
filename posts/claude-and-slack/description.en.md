@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # What is this post?
 This post describes two ways to use Claude with Slack: installing the Claude app in Slack for help in channels/threads, and connecting Slack to Claude so Claude can search conversations and files for relevant context.

@@ -1,4 +1,4 @@
-[English](./frontend-design-skills-playbook.en.md) · [한국어](./frontend-design-skills-playbook.ko.md) · [Español](./frontend-design-skills-playbook.es.md) · [日本語](./frontend-design-skills-playbook.ja.md)
+[English](./frontend-design-skills-playbook.en.md) · [한국어](./frontend-design-skills-playbook.ko.md) · **Español** · [日本語](./frontend-design-skills-playbook.ja.md)
 
 # Diseño frontend a través de Skills: un manual práctico
 

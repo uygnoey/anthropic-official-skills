@@ -1,4 +1,4 @@
-[English](./deployment-playbook.en.md) · [한국어](./deployment-playbook.ko.md) · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
+[English](./deployment-playbook.en.md) · **한국어** · [Español](./deployment-playbook.es.md) · [日本語](./deployment-playbook.ja.md)
 
 # 배포 플레이북: 금융 서비스 AI 에이전트
 

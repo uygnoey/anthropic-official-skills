@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 # AIによる攻撃の加速に備えたセキュリティプログラムの準備
 

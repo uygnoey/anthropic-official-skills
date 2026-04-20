@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+**English** · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
 
 # What is this skill?
 This skill helps you delegate coding tasks from a browser-based workspace connected to GitHub, where each task runs in an isolated cloud environment and can produce a pull request.

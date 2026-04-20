@@ -1,4 +1,4 @@
-[English](./enterprise-agents-2026-brief.en.md) · [한국어](./enterprise-agents-2026-brief.ko.md) · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
+[English](./enterprise-agents-2026-brief.en.md) · **한국어** · [Español](./enterprise-agents-2026-brief.es.md) · [日本語](./enterprise-agents-2026-brief.ja.md)
 
 # 2026년 기업 AI 에이전트: 배포 현황 요약(설문 브리프)
 

@@ -1,4 +1,4 @@
-[English](./README.md) · [한국어](./README.ko.md) · [Español](./README.es.md) · [日本語](./README.ja.md)
+[English](./README.md) · [한국어](./README.ko.md) · [Español](./README.es.md) · **日本語**
 
 # skills-from-claude-blog
 

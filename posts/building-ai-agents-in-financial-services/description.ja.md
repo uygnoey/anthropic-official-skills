@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 # このスキルについて
 このスキルは、金融サービス（銀行・保険・資産管理）における AI エージェントの計画・導入を支援します。システム統合、規制要件、リアルタイムリスク管理のための制御に重点を置いています。

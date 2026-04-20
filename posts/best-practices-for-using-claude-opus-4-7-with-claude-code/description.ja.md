@@ -1,4 +1,4 @@
-[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · [日本語](./description.ja.md)
+[English](./description.en.md) · [한국어](./description.ko.md) · [Español](./description.es.md) · **日本語**
 
 ## この記事について
 Claude CodeでのOpus 4.7の挙動と、プロンプトや設定（effortレベル、adaptive thinking、セッション構成）を調整して品質とトークン効率を高める方法を解説します。

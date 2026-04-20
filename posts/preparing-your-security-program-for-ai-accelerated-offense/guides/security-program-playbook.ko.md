@@ -1,4 +1,4 @@
-[English](./security-program-playbook.en.md) · [한국어](./security-program-playbook.ko.md) · [Español](./security-program-playbook.es.md) · [日本語](./security-program-playbook.ja.md)
+[English](./security-program-playbook.en.md) · **한국어** · [Español](./security-program-playbook.es.md) · [日本語](./security-program-playbook.ja.md)
 
 # AI 공격 가속화 시대를 위한 보안 프로그램 플레이북
 
