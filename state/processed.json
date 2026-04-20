@@ -58,6 +58,16 @@
       "blog_slug": "claude-managed-agents",
       "processed_at": "2026-04-20T04:36:00Z",
       "source_date": "2026-04-08"
+    },
+    "https://claude.com/blog/claude-code-desktop-redesign": {
+      "blog_slug": "claude-code-desktop-redesign",
+      "processed_at": "2026-04-20T08:14:14Z",
+      "source_date": "2026-04-14"
+    },
+    "https://claude.com/blog/claude-and-slack": {
+      "blog_slug": "claude-and-slack",
+      "processed_at": "2026-04-20T08:14:14Z",
+      "source_date": "2025-10-01"
     }
   }
 }

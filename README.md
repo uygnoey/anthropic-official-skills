@@ -69,6 +69,8 @@ Each artifact can be copied into a project as-is.
 
 | Blog post | Published | Artifacts |
 |---|---|---|
+| claude-and-slack | 1 skill + 1 guide | 2025-10-01 |
+| claude-code-desktop-redesign | 1 skill | 2026-04-14 |
 | [Preparing your security program for AI-accelerated offense](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense) | 2026-04-10 | 2 skills + 3 agents + 1 guide |
 | [Claude Managed Agents: get to production 10x faster](https://claude.com/blog/claude-managed-agents) | 2026-04-08 | 1 guide |
 | [Subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) | 2026-04-07 | 2 skills + 1 agent + 1 hook |
