@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-19"
+    "last_run_at": "2026-04-20"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -38,6 +38,16 @@
       "blog_slug": "how-enterprises-are-building-ai-agents-in-2026",
       "processed_at": "2026-04-19T20:12:46Z",
       "source_date": "2025-11-12"
+    },
+    "https://claude.com/blog/claude-builds-visuals": {
+      "blog_slug": "claude-builds-visuals",
+      "processed_at": "2026-04-20T00:20:11Z",
+      "source_date": "2026-03-12"
+    },
+    "https://claude.com/blog/harnessing-claudes-intelligence": {
+      "blog_slug": "harnessing-claudes-intelligence",
+      "processed_at": "2026-04-20T00:20:11Z",
+      "source_date": "2026-04-02"
     }
   }
 }

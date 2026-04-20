@@ -48,6 +48,8 @@ posts/<blog-slug>/
 
 | Blog post | Artifacts |
 |---|---|
+| [Harnessing Claude's Intelligence \| 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) | 2026-04-02 | 1 guide (en/ko) |
+| [Claude builds interactive visuals right in your conversation](https://claude.com/blog/claude-builds-visuals) | 2026-03-12 | 1 skill |
 | [How enterprises are building AI agents in 2026](https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026) | 2025-12-09 | 1 guide (en/ko) |
 | [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills) | 2025-11-12 | 1 skill + 1 guide (en/ko) |
 | [claude-code-on-the-web](posts/claude-code-on-the-web/) (2025-10-20) | 1 skill |
