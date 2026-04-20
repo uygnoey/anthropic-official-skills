@@ -88,6 +88,16 @@
       "blog_slug": "introducing-routines-in-claude-code",
       "processed_at": "2026-04-20T15:28:03Z",
       "source_date": "2026-04-14"
+    },
+    "https://claude.com/blog/claude-platform-compliance-api": {
+      "blog_slug": "claude-platform-compliance-api",
+      "processed_at": "2026-04-20T19:02:43Z",
+      "source_date": "2026-03-30"
+    },
+    "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon": {
+      "blog_slug": "meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
+      "processed_at": "2026-04-20T19:02:43Z",
+      "source_date": "2026-04-20"
     }
   }
 }
