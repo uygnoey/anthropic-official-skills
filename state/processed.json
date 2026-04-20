@@ -78,6 +78,16 @@
       "blog_slug": "best-practices-for-using-claude-opus-4-7-with-claude-code",
       "processed_at": "2026-04-20T12:29:33Z",
       "source_date": "2026-04-16"
+    },
+    "https://claude.com/blog/using-claude-code-session-management-and-1m-context": {
+      "blog_slug": "using-claude-code-session-management-and-1m-context",
+      "processed_at": "2026-04-20T15:28:03Z",
+      "source_date": "2026-04-15"
+    },
+    "https://claude.com/blog/introducing-routines-in-claude-code": {
+      "blog_slug": "introducing-routines-in-claude-code",
+      "processed_at": "2026-04-20T15:28:03Z",
+      "source_date": "2026-04-14"
     }
   }
 }
