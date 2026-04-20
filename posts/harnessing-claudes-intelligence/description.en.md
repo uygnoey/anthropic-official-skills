@@ -12,6 +12,7 @@ Use it when you are designing an agent harness (prompt/tooling/context/memory bo
 - Set boundaries carefully: design prompts for cache efficiency and promote high-stakes actions into declarative tools for security, UX, and observability.
 
 ## Bundled resources
+- 1 skill: `skills/building-on-evolving-models/SKILL.md` — the three patterns and cache-hit principles packaged in Agent Skills format
 - 1 guide (en/ko): `guides/three-patterns-app-harness.en.md`, `guides/three-patterns-app-harness.ko.md`
 
 ## Source
