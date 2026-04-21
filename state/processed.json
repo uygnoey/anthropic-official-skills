@@ -148,6 +148,16 @@
       "blog_slug": "android-app",
       "processed_at": "2026-04-21T15:05:32Z",
       "source_date": "2024-07-16"
+    },
+    "https://claude.com/blog/automate-security-reviews-with-claude-code": {
+      "blog_slug": "automate-security-reviews-with-claude-code",
+      "processed_at": "2026-04-21T19:04:15Z",
+      "source_date": "2025-08-06"
+    },
+    "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early": {
+      "blog_slug": "behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
+      "processed_at": "2026-04-21T19:04:15Z",
+      "source_date": "2026-02-09"
     }
   }
 }
