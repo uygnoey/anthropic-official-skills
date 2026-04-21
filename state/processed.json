@@ -138,6 +138,16 @@
       "blog_slug": "amazon-bedrock-general-availability",
       "processed_at": "2026-04-21T11:07:02Z",
       "source_date": "2023-09-28"
+    },
+    "https://claude.com/blog/analysis-tool": {
+      "blog_slug": "analysis-tool",
+      "processed_at": "2026-04-21T15:05:32Z",
+      "source_date": "2024-10-24"
+    },
+    "https://claude.com/blog/android-app": {
+      "blog_slug": "android-app",
+      "processed_at": "2026-04-21T15:05:32Z",
+      "source_date": "2024-07-16"
     }
   }
 }
