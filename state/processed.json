@@ -128,6 +128,16 @@
       "blog_slug": "1m-context",
       "processed_at": "2026-04-21T07:05:26Z",
       "source_date": "2025-08-12"
+    },
+    "https://claude.com/blog/agent-capabilities-api": {
+      "blog_slug": "agent-capabilities-api",
+      "processed_at": "2026-04-21T11:07:02Z",
+      "source_date": "2025-05-22"
+    },
+    "https://claude.com/blog/amazon-bedrock-general-availability": {
+      "blog_slug": "amazon-bedrock-general-availability",
+      "processed_at": "2026-04-21T11:07:02Z",
+      "source_date": "2023-09-28"
     }
   }
 }
