@@ -158,6 +158,16 @@
       "blog_slug": "behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
       "processed_at": "2026-04-21T19:04:15Z",
       "source_date": "2026-02-09"
+    },
+    "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
+      "blog_slug": "beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
+      "processed_at": "2026-04-21T23:06:58Z",
+      "source_date": "2025-10-08"
+    },
+    "https://claude.com/blog/build-artifacts": {
+      "blog_slug": "build-artifacts",
+      "processed_at": "2026-04-21T23:06:58Z",
+      "source_date": "2025-06-25"
     }
   }
 }
