@@ -118,6 +118,16 @@
       "blog_slug": "cowork-for-enterprise",
       "processed_at": "2026-04-21T03:02:53Z",
       "source_date": "2026-04-09"
+    },
+    "https://claude.com/blog/carta-healthcare-clinical-abstractor": {
+      "blog_slug": "carta-healthcare-clinical-abstractor",
+      "processed_at": "2026-04-21T07:05:26Z",
+      "source_date": "2026-04-08"
+    },
+    "https://claude.com/blog/1m-context": {
+      "blog_slug": "1m-context",
+      "processed_at": "2026-04-21T07:05:26Z",
+      "source_date": "2025-08-12"
     }
   }
 }
