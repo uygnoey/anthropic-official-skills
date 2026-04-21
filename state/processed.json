@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-20"
+    "last_run_at": "2026-04-21"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -108,6 +108,16 @@
       "blog_slug": "multi-agent-coordination-patterns",
       "processed_at": "2026-04-20T23:07:03Z",
       "source_date": "2026-04-10"
+    },
+    "https://claude.com/blog/the-advisor-strategy": {
+      "blog_slug": "the-advisor-strategy",
+      "processed_at": "2026-04-21T03:02:53Z",
+      "source_date": "2026-04-09"
+    },
+    "https://claude.com/blog/cowork-for-enterprise": {
+      "blog_slug": "cowork-for-enterprise",
+      "processed_at": "2026-04-21T03:02:53Z",
+      "source_date": "2026-04-09"
     }
   }
 }
