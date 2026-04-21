@@ -28,10 +28,6 @@ description: A reusable workflow for using Claude in Slack (and Slack as a conne
 - Connect Slack to Claude, then ask for a briefing that cites key Slack updates relevant to a meeting agenda.
 
 ## Companion resources (optional)
-- Guide: [../../guides/slack-slack-integration.en.md](../../guides/slack-slack-integration.en.md)
-
-## Human-readable descriptions
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), [../../description.ja.md](../../description.ja.md).
 
 ## Source
 Distilled from [Claude and Slack](https://claude.com/blog/claude-and-slack) (published 2025-10-01).

@@ -41,15 +41,6 @@ CVE-2024-99887 [EPSS 0.02] → backlog
 - Relying on CVSS severity alone; CVSS does not reflect active exploitation like KEV and EPSS do.
 - Patching on a fixed monthly cadence regardless of KEV additions.
 
-## Companion resources
-
-- Quality bar for AI-assisted vulnerability reports: [../writing-quality-vuln-reports/SKILL.md](../writing-quality-vuln-reports/SKILL.md)
-- Full 7-area security program playbook: [../../guides/security-program-playbook.en.md](../../guides/security-program-playbook.en.md)
-
-## Human-readable descriptions
-
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), and [../../description.ja.md](../../description.ja.md).
-
 ## Source
 
 Distilled from [Preparing your security program for AI-accelerated offense](https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense) (published 2026-04-10).

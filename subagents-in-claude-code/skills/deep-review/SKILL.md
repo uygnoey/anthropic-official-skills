@@ -48,17 +48,6 @@ No findings
 - Style reviewer reports no additional style deviations.
 ```
 
-Each category is delegated to a subagent — security uses the [security-reviewer](../../agents/security-reviewer.md) subagent with read-only tools; performance and style use ephemeral read-only subagents launched for this invocation only.
-
-## Companion resources
-
-- Security-focused reviewer: [../../agents/security-reviewer.md](../../agents/security-reviewer.md)
-- Tests-must-pass gate: [../../hooks/check-tests.md](../../hooks/check-tests.md)
-
-## Human-readable descriptions
-
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), and [../../description.ja.md](../../description.ja.md).
-
 ## Source
 
 Distilled verbatim from [How and when to use subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) (published 2026-04-07).

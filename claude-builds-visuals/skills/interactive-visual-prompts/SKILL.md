@@ -23,8 +23,5 @@ Claude can create temporary, inline interactive charts, diagrams, and visualizat
 - If the first visual is not what you intended, describe the specific change you want (e.g., “make the x-axis monthly” or “turn this into a flowchart”).
 - Expect visuals to be temporary and to evolve as the conversation continues.
 
-## Human-readable descriptions
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 Distilled from [Claude builds interactive visuals right in your conversation](https://claude.com/blog/claude-builds-visuals) (published 2026-03-12).

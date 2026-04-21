@@ -101,10 +101,6 @@ All routes use `/api/v1` prefix. JWT tokens expire after 24 hours.
 - Use `/clear` to reset polluted context; delegate isolated explorations to subagents.
 - Split long guidance into referenced `.md` files; keep `CLAUDE.md` itself short.
 
-## Human-readable descriptions
-
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 
 Distilled from [Using CLAUDE.MD files: Customizing Claude Code for your codebase](https://claude.com/blog/using-claude-md-files) (published 2025-11-25). Always defer to the original for authoritative guidance.

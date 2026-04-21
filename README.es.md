@@ -107,6 +107,7 @@ Todas las guías y resúmenes están disponibles en inglés, coreano, español y
 6. Las `guides/` se escriben en los cuatro idiomas (`.en.md`, `.ko.md`, `.es.md`, `.ja.md`) con selector de idioma arriba.
 7. Los resúmenes humanos (`description.*.md`) cubren los mismos cuatro idiomas con selector de idioma.
 8. **Nunca inventes contenido que no esté en la fuente.** Si no estás seguro, escribe "ver fuente".
+9. **Los artifacts son autocontenidos.** `SKILL.md`, `agents/*.md`, `hooks/*.md` y `output-styles/*.md` no deben referenciar nada fuera de su propia carpeta — sin rutas `../`, sin enlaces entre artifacts, sin enlaces de vuelta a `description.*.md` o `guides/`. Si necesitas material externo, cópialo a un archivo companion local (`references/`, `examples/`, `templates/`, `scripts/`, `prompts/`, `assets/` o un `.md` hermano).
 
 ## Archivos
 

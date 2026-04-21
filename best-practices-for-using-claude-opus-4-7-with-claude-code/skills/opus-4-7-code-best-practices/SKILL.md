@@ -22,11 +22,5 @@ User: "Do a code review of these three packages. Be aggressive about reading fil
 Assistant: "I will spawn multiple subagents in the same turn to review packages in parallel, and I will read files proactively since Opus 4.7 calls tools less often by default."
 ```
 
-## Human-readable descriptions
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), [../../description.ja.md](../../description.ja.md).
-
-## Companion resources
-- Guide: [../../guides/opus-4-7-code-best-practices.en.md](../../guides/opus-4-7-code-best-practices.en.md), [../../guides/opus-4-7-code-best-practices.ko.md](../../guides/opus-4-7-code-best-practices.ko.md), [../../guides/opus-4-7-code-best-practices.es.md](../../guides/opus-4-7-code-best-practices.es.md), [../../guides/opus-4-7-code-best-practices.ja.md](../../guides/opus-4-7-code-best-practices.ja.md)
-
 ## Source
 Distilled from [Best practices for using Claude Opus 4.7 with Claude Code](https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code) (published 2026-04-16).

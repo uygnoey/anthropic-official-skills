@@ -22,8 +22,5 @@ User: "Run a long migration script and update docs. Stop and ask if anything loo
 Assistant: "I will proceed in auto mode for routine edits, and I will pause for confirmation if the classifier blocks an action repeatedly."
 ```
 
-## Human-readable descriptions
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), [../../description.ja.md](../../description.ja.md).
-
 ## Source
 Distilled from [Auto mode for Claude Code](https://claude.com/blog/auto-mode) (published 2026-03-24).

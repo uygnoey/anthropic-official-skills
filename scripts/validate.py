@@ -98,6 +98,9 @@ _MD_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)\s]+)\)")
 _BARE_REF_RE = re.compile(
     r"(?<![/\w])(?:" + "|".join(COMPANION_DIRS) + r")/[\w./-]+"
 )
+# Any bare relative path that escapes upward (../...). Used to enforce
+# self-containment of skill/agent/hook/output-style artifact folders.
+_PARENT_ESCAPE_RE = re.compile(r"(?<![\w.])\.\./[\w./-]+")
 
 
 def _is_external(path: str) -> bool:
@@ -107,6 +110,28 @@ def _is_external(path: str) -> bool:
         or path.startswith("#")
         or path.startswith("mailto:")
     )
+
+
+def _check_self_contained(body: str, ctx: str, errs: list[str]) -> None:
+    """Enforce that the artifact body does not reference anything outside its folder.
+
+    Every artifact (SKILL.md, agents/*.md, hooks/*.md, output-styles/*.md) must be
+    self-contained: no `../` paths in markdown links or bare prose references.
+    If outside material is needed, copy it into a local companion file instead.
+    """
+    flagged: set[str] = set()
+    for m in _MD_LINK_RE.finditer(body):
+        target = m.group(1)
+        if _is_external(target):
+            continue
+        if target.startswith("../"):
+            flagged.add(target)
+    for m in _PARENT_ESCAPE_RE.finditer(body):
+        flagged.add(m.group(0))
+    for target in sorted(flagged):
+        errs.append(
+            f"{ctx}: escapes artifact folder via '{target}' — artifacts must be self-contained"
+        )
 
 
 def _check_companions(base_dir: Path, body: str, ctx: str, errs: list[str]) -> None:
@@ -204,6 +229,8 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{sctx}: missing '## Instructions' section")
             if "## Examples" not in body:
                 errs.append(f"{sctx}: missing '## Examples' section")
+            # Skills must be self-contained: no ../ references out of the skill folder.
+            _check_self_contained(body, sctx, errs)
             # Companion files: every relative path mentioned in SKILL.md must exist.
             # Covers markdown links [label](path), bare paths like scripts/foo.py,
             # templates/bar.md, references/baz.md, etc.
@@ -222,6 +249,8 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{actx}: missing description")
             if not body.strip():
                 errs.append(f"{actx}: empty body")
+            # Agents must be self-contained: no ../ references out of agents/.
+            _check_self_contained(body, actx, errs)
             # Agents can reference companion material (prompts/, references/, etc.)
             _check_companions(agents_dir, body, actx, errs)
 
@@ -265,12 +294,10 @@ def validate_post(post: Path, errs: list[str]) -> None:
             if not md_counterpart.exists():
                 errs.append(f"{hctx}: missing companion {hk.stem}.md notes")
             else:
-                _check_companions(
-                    hooks_dir,
-                    md_counterpart.read_text(encoding="utf-8"),
-                    f"{ctx}/hooks/{md_counterpart.name}",
-                    errs,
-                )
+                md_body = md_counterpart.read_text(encoding="utf-8")
+                md_ctx = f"{ctx}/hooks/{md_counterpart.name}"
+                _check_self_contained(md_body, md_ctx, errs)
+                _check_companions(hooks_dir, md_body, md_ctx, errs)
             # Scripts referenced from command strings must exist in the same hooks/ folder
             # (they can live under .claude/hooks/<name> in deployment, but here we want the
             # source of truth present next to the JSON).
@@ -314,6 +341,7 @@ def validate_post(post: Path, errs: list[str]) -> None:
                 errs.append(f"{octx}: missing description")
             if not body.strip():
                 errs.append(f"{octx}: empty body")
+            _check_self_contained(body, octx, errs)
             _check_companions(ost_dir, body, octx, errs)
 
     # plugin/

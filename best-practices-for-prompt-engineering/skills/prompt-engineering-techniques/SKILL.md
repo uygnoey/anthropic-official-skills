@@ -135,10 +135,6 @@ This prompt applies: explicit action verb, context ("for automated processing"),
 - Do not skip iteration. First prompts are rarely optimal.
 - Do not rely on outdated tricks. XML tags and heavy role-play matter less on modern Claude models.
 
-## Human-readable descriptions
-
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 
 Distilled from [Best practices for prompt engineering](https://claude.com/blog/best-practices-for-prompt-engineering) (published 2025-11-10). Defer to the original for authoritative guidance.

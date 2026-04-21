@@ -32,12 +32,5 @@ Use this skill to guide Claude toward distinctive, brand-appropriate frontend UI
 - If the user provides a brand or product vibe, translate it into: typography choices, 1–2 dominant colors, an accent color, and a background motif.
 - If the output looks generic, iterate by changing the font pairing and background treatment first.
 
-## Companion resources
-- Guide: ../../guides/frontend-design-skills-playbook.en.md
-- Guide (Korean): ../../guides/frontend-design-skills-playbook.ko.md
-
-## Human-readable descriptions
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 Distilled from [Improving frontend design through Skills](https://claude.com/blog/improving-frontend-design-through-skills) (published 2025-11-12).

@@ -23,10 +23,6 @@ description: A reusable checklist for using Claude Code desktop features to mana
 - When verifying a change, run tests in the integrated terminal and review the resulting diff and preview side-by-side.
 
 ## Companion resources (optional)
-- Human-readable overview: [../../description.en.md](../../description.en.md)
-
-## Human-readable descriptions
-Summarized in [../../description.en.md](../../description.en.md), [../../description.ko.md](../../description.ko.md), [../../description.es.md](../../description.es.md), [../../description.ja.md](../../description.ja.md).
 
 ## Source
 Distilled from [Redesigning Claude Code on desktop for parallel agents](https://claude.com/blog/claude-code-desktop-redesign) (published 2026-04-14).

@@ -77,12 +77,6 @@ Benchmarks cited in the source that illustrate the patterns (not fabricated):
 
 Additional material from the same blog post lives next to this skill in the post folder:
 
-- [`../../guides/three-patterns-app-harness.en.md`](../../guides/three-patterns-app-harness.en.md) / [`../../guides/three-patterns-app-harness.ko.md`](../../guides/three-patterns-app-harness.ko.md) — narrative walk-through of the same three patterns with all source quotes preserved.
-
-## Human-readable descriptions
-
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 
 Distilled from [Harnessing Claude's Intelligence — 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (published 2026-04-02). Defer to the original for authoritative guidance.

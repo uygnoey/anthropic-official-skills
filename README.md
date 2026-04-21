@@ -106,6 +106,7 @@ All guides and summaries are available in English, Korean, Spanish, and Japanese
 6. `guides/` are authored in all four languages (`.en.md`, `.ko.md`, `.es.md`, `.ja.md`) with a language switcher at the top.
 7. Human summaries (`description.*.md`) cover the same four languages with a language switcher.
 8. **Never invent content not in the source.** If unsure, fall back to "see source".
+9. **Artifacts are self-contained.** `SKILL.md`, `agents/*.md`, `hooks/*.md`, and `output-styles/*.md` must not reference anything outside their own folder — no `../` paths, no cross-artifact links, no links back to `description.*.md` or `guides/`. If outside material is needed, copy it into a local companion file (`references/`, `examples/`, `templates/`, `scripts/`, `prompts/`, `assets/`, or a sibling `.md`).
 
 ## Files
 
@@ -116,7 +117,8 @@ All guides and summaries are available in English, Korean, Spanish, and Japanese
 │   ├── list_pending.py          # List pending URLs
 │   ├── mark_processed.py        # Mark a URL processed
 │   ├── update_last_run.py       # Stamp batch timestamp
-│   └── validate.py              # Pre-commit validator for all specs
+│   ├── validate.py              # Pre-commit validator for all specs
+│   └── strip_parent_refs.py     # Rewrite artifacts to drop ../ escapes
 └── state/
     └── processed.json           # Processed URLs + last_run_at
 ```

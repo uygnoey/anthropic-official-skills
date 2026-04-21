@@ -106,6 +106,7 @@ Claude 公式ブログの記事を、**記事の性格に合わせた Claude Cod
 6. `guides/` は `.en.md` · `.ko.md` · `.es.md` · `.ja.md` の 4 言語で書き、先頭に言語スイッチャを置く。
 7. 人向けの解説 (`description.*.md`) も同じ 4 言語で書き、先頭に言語スイッチャを置く。
 8. **原文にない内容を創作しない。** 不確かなら「原文参照」で置く。
+9. **アーティファクトはセルフコンテインド。** `SKILL.md`、`agents/*.md`、`hooks/*.md`、`output-styles/*.md` は自身のフォルダの外を参照してはいけません — `../` パス、他のアーティファクトへのリンク、`description.*.md` や `guides/` へ戻るリンクはすべて禁止。外部の素材が必要ならローカルのコンパニオンファイル（`references/`、`examples/`、`templates/`、`scripts/`、`prompts/`、`assets/` または兄弟の `.md`）にコピーしてください。
 
 ## ファイル
 

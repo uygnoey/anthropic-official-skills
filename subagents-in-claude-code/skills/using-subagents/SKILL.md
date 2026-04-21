@@ -142,10 +142,6 @@ subagent review it for security issues, return a prioritized list of findings.
 - Avoid over-populating specialists; too many candidates weaken auto-delegation.
 - Subagents cannot talk to each other. If they must coordinate, use Agent Teams.
 
-## Human-readable descriptions
-
-This skill is summarized for humans in [../../description.en.md](../../description.en.md) and [../../description.ko.md](../../description.ko.md).
-
 ## Source
 
 Distilled from [How and when to use subagents in Claude Code](https://claude.com/blog/subagents-in-claude-code) (published 2026-04-07). Defer to the original for authoritative guidance.
