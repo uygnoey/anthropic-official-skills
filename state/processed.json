@@ -198,6 +198,16 @@
       "blog_slug": "building-companies-with-claude-code",
       "processed_at": "2026-04-22T11:12:26Z",
       "source_date": "2025-11-17"
+    },
+    "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them": {
+      "blog_slug": "building-multi-agent-systems-when-and-how-to-use-them",
+      "processed_at": "2026-04-22T15:05:12Z",
+      "source_date": "2026-01-23"
+    },
+    "https://claude.com/blog/claude-2-1-prompting": {
+      "blog_slug": "claude-2-1-prompting",
+      "processed_at": "2026-04-22T15:05:12Z",
+      "source_date": "2023-12-06"
     }
   }
 }
