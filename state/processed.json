@@ -188,6 +188,16 @@
       "blog_slug": "building-ai-agents-for-startups",
       "processed_at": "2026-04-22T07:02:33Z",
       "source_date": "2025-11-03"
+    },
+    "https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences": {
+      "blog_slug": "building-ai-agents-in-healthcare-and-life-sciences",
+      "processed_at": "2026-04-22T11:12:26Z",
+      "source_date": "2025-10-30"
+    },
+    "https://claude.com/blog/building-companies-with-claude-code": {
+      "blog_slug": "building-companies-with-claude-code",
+      "processed_at": "2026-04-22T11:12:26Z",
+      "source_date": "2025-11-17"
     }
   }
 }
