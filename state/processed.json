@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-21"
+    "last_run_at": "2026-04-22"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -168,6 +168,16 @@
       "blog_slug": "build-artifacts",
       "processed_at": "2026-04-21T23:06:58Z",
       "source_date": "2025-06-25"
+    },
+    "https://claude.com/blog/build-responsive-web-layouts": {
+      "blog_slug": "build-responsive-web-layouts",
+      "processed_at": "2026-04-22T03:02:38Z",
+      "source_date": "2025-10-10"
+    },
+    "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work": {
+      "blog_slug": "building-agents-with-skills-equipping-agents-for-specialized-work",
+      "processed_at": "2026-04-22T03:02:38Z",
+      "source_date": "2026-01-22"
     }
   }
 }
