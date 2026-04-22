@@ -178,6 +178,16 @@
       "blog_slug": "building-agents-with-skills-equipping-agents-for-specialized-work",
       "processed_at": "2026-04-22T03:02:38Z",
       "source_date": "2026-01-22"
+    },
+    "https://claude.com/blog/building-agents-with-the-claude-agent-sdk": {
+      "blog_slug": "building-agents-with-the-claude-agent-sdk",
+      "processed_at": "2026-04-22T07:02:33Z",
+      "source_date": "2025-09-29"
+    },
+    "https://claude.com/blog/building-ai-agents-for-startups": {
+      "blog_slug": "building-ai-agents-for-startups",
+      "processed_at": "2026-04-22T07:02:33Z",
+      "source_date": "2025-11-03"
     }
   }
 }
