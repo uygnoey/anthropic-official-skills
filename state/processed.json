@@ -258,6 +258,16 @@
       "blog_slug": "claude-now-available-in-microsoft-365-copilot",
       "processed_at": "2026-04-23T11:06:22Z",
       "source_date": "2025-09-24"
+    },
+    "https://claude.com/blog/claude-on-google-cloud-fedramp-high": {
+      "blog_slug": "claude-on-google-cloud-fedramp-high",
+      "processed_at": "2026-04-23T15:08:42Z",
+      "source_date": "2025-04-02"
+    },
+    "https://claude.com/blog/claude-powered-artifacts": {
+      "blog_slug": "claude-powered-artifacts",
+      "processed_at": "2026-04-23T15:08:42Z",
+      "source_date": "2025-07-25"
     }
   }
 }
