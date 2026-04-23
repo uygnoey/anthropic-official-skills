@@ -1,0 +1,5 @@
+{
+  "name": "plugin-basics",
+  "description": "Example plugin bundle based on the Claude blog post about Claude Code plugins.",
+  "version": "0.1.0"
+}

@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-22"
+    "last_run_at": "2026-04-23"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -228,6 +228,16 @@
       "blog_slug": "claude-code-and-slack",
       "processed_at": "2026-04-22T23:05:54Z",
       "source_date": "2025-12-08"
+    },
+    "https://claude.com/blog/claude-code-plugins": {
+      "blog_slug": "claude-code-plugins",
+      "processed_at": "2026-04-23T03:02:28Z",
+      "source_date": "2025-10-09"
+    },
+    "https://claude.com/blog/claude-code-remote-mcp": {
+      "blog_slug": "claude-code-remote-mcp",
+      "processed_at": "2026-04-23T03:02:28Z",
+      "source_date": "2025-06-18"
     }
   }
 }
