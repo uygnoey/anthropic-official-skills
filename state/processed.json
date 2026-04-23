@@ -278,6 +278,16 @@
       "blog_slug": "claude-team-updates",
       "processed_at": "2026-04-23T19:03:56Z",
       "source_date": "2026-01-28"
+    },
+    "https://claude.com/blog/claude-managed-agents-memory": {
+      "blog_slug": "claude-managed-agents-memory",
+      "processed_at": "2026-04-23T23:04:50Z",
+      "source_date": "2026-04-23"
+    },
+    "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo": {
+      "blog_slug": "code-with-claude-san-francisco-london-tokyo",
+      "processed_at": "2026-04-23T23:04:50Z",
+      "source_date": "2026-03-18"
     }
   }
 }
