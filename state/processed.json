@@ -268,6 +268,16 @@
       "blog_slug": "claude-powered-artifacts",
       "processed_at": "2026-04-23T15:08:42Z",
       "source_date": "2025-07-25"
+    },
+    "https://claude.com/blog/connectors-for-everyday-life": {
+      "blog_slug": "connectors-for-everyday-life",
+      "processed_at": "2026-04-23T19:03:55Z",
+      "source_date": "2026-04-23"
+    },
+    "https://claude.com/blog/claude-team-updates": {
+      "blog_slug": "claude-team-updates",
+      "processed_at": "2026-04-23T19:03:56Z",
+      "source_date": "2026-01-28"
     }
   }
 }
