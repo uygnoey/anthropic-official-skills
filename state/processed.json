@@ -248,6 +248,16 @@
       "blog_slug": "claude-for-chrome",
       "processed_at": "2026-04-23T07:11:15Z",
       "source_date": "2025-08-25"
+    },
+    "https://claude.com/blog/claude-for-enterprise": {
+      "blog_slug": "claude-for-enterprise",
+      "processed_at": "2026-04-23T11:06:22Z",
+      "source_date": "2024-09-10"
+    },
+    "https://claude.com/blog/claude-now-available-in-microsoft-365-copilot": {
+      "blog_slug": "claude-now-available-in-microsoft-365-copilot",
+      "processed_at": "2026-04-23T11:06:22Z",
+      "source_date": "2025-09-24"
     }
   }
 }
