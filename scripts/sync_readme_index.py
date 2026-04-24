@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 HEADER_MARKERS = [
     ("Blog post", "Published", "Artifacts"),   # en
-    ("블로그 글", "게시일", "아티팩트"),            # ko
+    ("블로그 글", "게시일", "Artifacts"),            # ko
     ("Post", "Publicado", "Artefactos"),        # es
     ("ブログ記事", "公開日", "成果物"),           # ja
 ]
