@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-23"
+    "last_run_at": "2026-04-24"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -288,6 +288,16 @@
       "blog_slug": "code-with-claude-san-francisco-london-tokyo",
       "processed_at": "2026-04-23T23:04:50Z",
       "source_date": "2026-03-18"
+    },
+    "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them": {
+      "blog_slug": "common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+      "processed_at": "2026-04-24T03:05:16Z",
+      "source_date": "2026-03-05"
+    },
+    "https://claude.com/blog/complete-guide-to-building-skills-for-claude": {
+      "blog_slug": "complete-guide-to-building-skills-for-claude",
+      "processed_at": "2026-04-24T03:05:16Z",
+      "source_date": "2026-01-29"
     }
   }
 }
