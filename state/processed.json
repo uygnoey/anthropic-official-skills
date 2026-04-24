@@ -298,6 +298,16 @@
       "blog_slug": "2026.01.29_complete-guide-to-building-skills-for-claude",
       "processed_at": "2026-04-24T03:05:16Z",
       "source_date": "2026-01-29"
+    },
+    "https://claude.com/blog/connectors-directory": {
+      "blog_slug": "2025.07.14_connectors-directory",
+      "processed_at": "2026-04-24T07:01:55Z",
+      "source_date": "2025-07-14"
+    },
+    "https://claude.com/blog/context-management": {
+      "blog_slug": "2025.09.29_context-management",
+      "processed_at": "2026-04-24T07:01:55Z",
+      "source_date": "2025-09-29"
     }
   }
 }
