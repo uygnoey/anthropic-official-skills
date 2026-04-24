@@ -318,6 +318,16 @@
       "blog_slug": "2026.01.30_cowork-plugins",
       "processed_at": "2026-04-24T11:04:06Z",
       "source_date": "2026-01-30"
+    },
+    "https://claude.com/blog/cowork-plugins-across-enterprise": {
+      "blog_slug": "2026.02.24_cowork-plugins-across-enterprise",
+      "processed_at": "2026-04-24T15:09:43Z",
+      "source_date": "2026-02-24"
+    },
+    "https://claude.com/blog/cowork-plugins-finance": {
+      "blog_slug": "2026.02.24_cowork-plugins-finance",
+      "processed_at": "2026-04-24T15:09:43Z",
+      "source_date": "2026-02-24"
     }
   }
 }
