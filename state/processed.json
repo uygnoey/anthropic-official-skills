@@ -338,6 +338,16 @@
       "blog_slug": "2026.03.23_dispatch-and-computer-use",
       "processed_at": "2026-04-24T19:03:46Z",
       "source_date": "2026-03-23"
+    },
+    "https://claude.com/blog/driving-ai-transformation-with-claude": {
+      "blog_slug": "2025.10.01_driving-ai-transformation-with-claude",
+      "processed_at": "2026-04-24T23:05:42Z",
+      "source_date": "2025-10-01"
+    },
+    "https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026": {
+      "blog_slug": "2026.01.21_eight-trends-defining-how-software-gets-built-in-2026",
+      "processed_at": "2026-04-24T23:05:42Z",
+      "source_date": "2026-01-21"
     }
   }
 }
