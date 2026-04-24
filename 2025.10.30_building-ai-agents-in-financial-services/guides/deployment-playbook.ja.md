@@ -103,4 +103,4 @@
 - [ ] 顧客向けの用途の場合：AI対応であることが開示され、人間へのルートが用意されているか？
 
 ## 出典
-[Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services)（公開日：2025-10-30）より抽出。権威ある情報については原文を参照してください。
+[Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services)（公開日：2025-10-30）より抽出。権威ある情報については原文を参照してください。

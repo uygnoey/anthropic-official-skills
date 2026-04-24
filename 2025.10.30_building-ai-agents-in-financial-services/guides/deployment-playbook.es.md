@@ -103,4 +103,4 @@ Antes de aprobar un despliegue:
 - [ ] Para uso orientado al cliente: ¿se informa de la interacción con IA y existe una vía de acceso a un humano?
 
 ## Fuente
-Elaborado a partir de [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (publicado el 2025-10-30). Consulta el original para obtener orientación autoritativa.
+Elaborado a partir de [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (publicado el 2025-10-30). Consulta el original para obtener orientación autoritativa.

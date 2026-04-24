@@ -18,4 +18,4 @@
 - ガイド 1 件（英語/韓国語）: `guides/three-patterns-app-harness.en.md`, `guides/three-patterns-app-harness.ko.md`
 
 ## 出典
-〜をもとに整理しました: [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence)（公開: 2026-04-02）。
+〜をもとに整理しました: [Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence)（公開: 2026-04-02）。

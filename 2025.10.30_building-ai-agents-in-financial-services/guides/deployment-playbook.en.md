@@ -103,4 +103,4 @@ Before green-lighting a deployment:
 - [ ] For customer-facing use: is AI interaction disclosed, with a path to a human?
 
 ## Source
-Distilled from [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30). Defer to the original for authoritative guidance.
+Distilled from [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30). Defer to the original for authoritative guidance.

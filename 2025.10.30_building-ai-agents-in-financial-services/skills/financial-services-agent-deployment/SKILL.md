@@ -36,4 +36,4 @@ The blog post this skill was distilled from also produced other Claude-spec arti
 The three agent files are ready to drop into `.claude/agents/` (project) or `~/.claude/agents/` (user) as-is.
 
 ## Source
-Distilled from [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).
+Distilled from [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).

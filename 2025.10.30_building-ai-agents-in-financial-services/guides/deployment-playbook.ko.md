@@ -103,4 +103,4 @@
 - [ ] 고객 대면 용도라면: AI 상호작용이 공개되고, 사람으로 가는 경로가 있는가?
 
 ## 출처
-[Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (게시 2025-10-30)에서 정리. 권위 있는 지침은 원문을 참고하세요.
+[Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (게시 2025-10-30)에서 정리. 권위 있는 지침은 원문을 참고하세요.

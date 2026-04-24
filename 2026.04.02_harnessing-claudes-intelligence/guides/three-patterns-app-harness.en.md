@@ -60,4 +60,4 @@ Because the Messages API is stateless, the harness re-sends prior context each t
 - Prune resets or scaffolding that existed only to compensate for older model limitations.
 
 ## Source
-Distilled from [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (published 2026-04-02).
+Distilled from [Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (published 2026-04-02).

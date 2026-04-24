@@ -22,4 +22,4 @@ Esta habilidad te ayuda a planificar y desplegar agentes de IA en servicios fina
 - Garantiza la transparencia hacia el cliente y un camino sencillo hacia un agente humano en los agentes de cara al cliente.
 
 # Fuente
-Basado en [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (publicado el 2025-10-30).
+Basado en [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (publicado el 2025-10-30).

@@ -18,4 +18,4 @@ Este post presenta tres patrones para crear aplicaciones en la plataforma Claude
 - 1 guía (en/ko): `guides/three-patterns-app-harness.en.md`, `guides/three-patterns-app-harness.ko.md`
 
 ## Fuente
-Basado en [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (publicado el 2026-04-02).
+Basado en [Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (publicado el 2026-04-02).

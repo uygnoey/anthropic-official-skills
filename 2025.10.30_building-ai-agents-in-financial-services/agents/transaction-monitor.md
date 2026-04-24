@@ -27,4 +27,4 @@ For each flagged item, produce:
 - Do not collapse multiple anomalies into one bullet — analysts need each traceable separately.
 
 ## Source
-Role distilled from [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).
+Role distilled from [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).

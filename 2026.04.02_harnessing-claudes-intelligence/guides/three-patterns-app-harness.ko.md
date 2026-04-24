@@ -61,4 +61,4 @@ Messages API는 stateless이므로, 하네스는 매 턴 과거 컨텍스트를 
 - 과거 모델 한계를 보완하려고 넣었던 리셋/스캐폴딩이 이제는 ‘죽은 무게’가 되었는지 점검하고 제거합니다.
 
 ## 출처
-[Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (게시일: 2026-04-02) 내용을 바탕으로 정리했습니다.
+[Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (게시일: 2026-04-02) 내용을 바탕으로 정리했습니다.

@@ -60,4 +60,4 @@ Dado que la API de Messages es sin estado, el arnés reenvía el contexto anteri
 - Elimina los reinicios o el scaffolding que existían solo para compensar las limitaciones de modelos anteriores.
 
 ## Fuente
-Elaborado a partir de [Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (publicado el 2026-04-02).
+Elaborado a partir de [Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (publicado el 2026-04-02).

@@ -22,4 +22,4 @@
 - 고객 접점이면 AI 사용 사실을 투명하게 알리고 사람에게 연결되는 경로를 준비합니다.
 
 # 출처
-[Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (게시 2025-10-30).
+[Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (게시 2025-10-30).

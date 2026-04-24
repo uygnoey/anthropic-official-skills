@@ -1,6 +1,6 @@
 [English](./description.en.md) · **한국어** · [Español](./description.es.md) · [日本語](./description.ja.md)
 
-# Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps
+# Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps
 
 ## 이 글이 뭔가요
 이 글은 Claude Platform에서 애플리케이션(에이전트 포함)을 만들 때, 모델의 지능이 빠르게 변화해도 **지연(latency)·비용(cost)** 균형을 유지하면서 성능을 따라잡기 위한 **3가지 패턴**을 제시합니다.
@@ -18,4 +18,4 @@
 - Guide 1개(영/한): `guides/three-patterns-app-harness.en.md`, `guides/three-patterns-app-harness.ko.md`
 
 ## 출처
-[Harnessing Claude's Intelligence | 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (게시일: 2026-04-02) 내용을 바탕으로 정리했습니다.
+[Harnessing Claude's Intelligence: 3 Key Patterns for Building Apps](https://claude.com/blog/harnessing-claudes-intelligence) (게시일: 2026-04-02) 내용을 바탕으로 정리했습니다.

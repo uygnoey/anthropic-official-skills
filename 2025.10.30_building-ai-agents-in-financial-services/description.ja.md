@@ -22,4 +22,4 @@
 - 顧客向けエージェントでは、AI 利用の透明性を確保し、人間のオペレーターへの簡単な移行経路を用意する。
 
 # 出典
-〜をもとに整理しました: [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services)（公開: 2025-10-30）。
+〜をもとに整理しました: [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services)（公開: 2025-10-30）。

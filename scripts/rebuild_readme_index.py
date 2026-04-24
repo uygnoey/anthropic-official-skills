@@ -140,7 +140,9 @@ def build_table(posts: list[dict]) -> str:
     ]
     for p in posts:
         artifacts = summarize_artifacts(p["folder"])
-        lines.append(f"| [{p['title']}]({p['url']}) | {p['date_iso']} | {artifacts} |")
+        # Escape pipes in titles so they don't break the markdown table layout.
+        safe_title = p["title"].replace("|", "\\|")
+        lines.append(f"| [{safe_title}]({p['url']}) | {p['date_iso']} | {artifacts} |")
     return "\n".join(lines) + "\n"
 
 

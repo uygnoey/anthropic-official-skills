@@ -22,4 +22,4 @@ This skill helps you plan and deploy AI agents in financial services by focusing
 - Ensure customer transparency and an easy path to a human for customer-facing agents.
 
 # Source
-Based on [Building AI agents for financial services | Claude](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).
+Based on [Building AI agents for financial services](https://claude.com/blog/building-ai-agents-in-financial-services) (published 2025-10-30).
