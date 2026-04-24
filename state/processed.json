@@ -328,6 +328,16 @@
       "blog_slug": "2026.02.24_cowork-plugins-finance",
       "processed_at": "2026-04-24T15:09:43Z",
       "source_date": "2026-02-24"
+    },
+    "https://claude.com/blog/create-files": {
+      "blog_slug": "2025.09.09_create-files",
+      "processed_at": "2026-04-24T19:03:46Z",
+      "source_date": "2025-09-09"
+    },
+    "https://claude.com/blog/dispatch-and-computer-use": {
+      "blog_slug": "2026.03.23_dispatch-and-computer-use",
+      "processed_at": "2026-04-24T19:03:46Z",
+      "source_date": "2026-03-23"
     }
   }
 }
