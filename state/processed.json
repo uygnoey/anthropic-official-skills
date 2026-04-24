@@ -308,6 +308,16 @@
       "blog_slug": "2025.09.29_context-management",
       "processed_at": "2026-04-24T07:01:55Z",
       "source_date": "2025-09-29"
+    },
+    "https://claude.com/blog/contribution-metrics": {
+      "blog_slug": "2026.01.29_contribution-metrics",
+      "processed_at": "2026-04-24T11:04:06Z",
+      "source_date": "2026-01-29"
+    },
+    "https://claude.com/blog/cowork-plugins": {
+      "blog_slug": "2026.01.30_cowork-plugins",
+      "processed_at": "2026-04-24T11:04:06Z",
+      "source_date": "2026-01-30"
     }
   }
 }
