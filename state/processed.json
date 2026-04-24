@@ -7,295 +7,295 @@
     "https://claude.com/blog/using-claude-md-files": {
       "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2025-11-25",
-      "blog_slug": "using-claude-md-files"
+      "blog_slug": "2025.11.25_using-claude-md-files"
     },
     "https://claude.com/blog/best-practices-for-prompt-engineering": {
       "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2025-11-10",
-      "blog_slug": "best-practices-for-prompt-engineering"
+      "blog_slug": "2025.11.10_best-practices-for-prompt-engineering"
     },
     "https://claude.com/blog/subagents-in-claude-code": {
       "processed_at": "2026-04-19T13:20:00Z",
       "source_date": "2026-04-07",
-      "blog_slug": "subagents-in-claude-code"
+      "blog_slug": "2026.04.07_subagents-in-claude-code"
     },
     "https://claude.com/blog/claude-code-on-the-web": {
       "processed_at": "2026-04-19T16:14:07Z",
       "source_date": "2025-10-20",
-      "blog_slug": "claude-code-on-the-web"
+      "blog_slug": "2025.10.20_claude-code-on-the-web"
     },
     "https://claude.com/blog/building-ai-agents-in-financial-services": {
       "processed_at": "2026-04-19T16:14:08Z",
       "source_date": "2025-10-30",
-      "blog_slug": "building-ai-agents-in-financial-services"
+      "blog_slug": "2025.10.30_building-ai-agents-in-financial-services"
     },
     "https://claude.com/blog/improving-frontend-design-through-skills": {
-      "blog_slug": "improving-frontend-design-through-skills",
+      "blog_slug": "2025.11.12_improving-frontend-design-through-skills",
       "processed_at": "2026-04-19T20:12:45Z",
       "source_date": "2025-10-30"
     },
     "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026": {
-      "blog_slug": "how-enterprises-are-building-ai-agents-in-2026",
+      "blog_slug": "2025.12.09_how-enterprises-are-building-ai-agents-in-2026",
       "processed_at": "2026-04-19T20:12:46Z",
       "source_date": "2025-11-12"
     },
     "https://claude.com/blog/claude-builds-visuals": {
-      "blog_slug": "claude-builds-visuals",
+      "blog_slug": "2026.03.12_claude-builds-visuals",
       "processed_at": "2026-04-20T00:20:11Z",
       "source_date": "2026-03-12"
     },
     "https://claude.com/blog/harnessing-claudes-intelligence": {
-      "blog_slug": "harnessing-claudes-intelligence",
+      "blog_slug": "2026.04.02_harnessing-claudes-intelligence",
       "processed_at": "2026-04-20T00:20:11Z",
       "source_date": "2026-04-02"
     },
     "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense": {
-      "blog_slug": "preparing-your-security-program-for-ai-accelerated-offense",
+      "blog_slug": "2026.04.10_preparing-your-security-program-for-ai-accelerated-offense",
       "processed_at": "2026-04-20T04:36:00Z",
       "source_date": "2026-04-10"
     },
     "https://claude.com/blog/claude-managed-agents": {
-      "blog_slug": "claude-managed-agents",
+      "blog_slug": "2026.04.08_claude-managed-agents",
       "processed_at": "2026-04-20T04:36:00Z",
       "source_date": "2026-04-08"
     },
     "https://claude.com/blog/claude-code-desktop-redesign": {
-      "blog_slug": "claude-code-desktop-redesign",
+      "blog_slug": "2026.04.14_claude-code-desktop-redesign",
       "processed_at": "2026-04-20T08:14:14Z",
       "source_date": "2026-04-14"
     },
     "https://claude.com/blog/claude-and-slack": {
-      "blog_slug": "claude-and-slack",
+      "blog_slug": "2025.10.01_claude-and-slack",
       "processed_at": "2026-04-20T08:14:14Z",
       "source_date": "2025-10-01"
     },
     "https://claude.com/blog/auto-mode": {
-      "blog_slug": "auto-mode",
+      "blog_slug": "2026.03.24_auto-mode",
       "processed_at": "2026-04-20T12:29:33Z",
       "source_date": "2026-03-24"
     },
     "https://claude.com/blog/best-practices-for-using-claude-opus-4-7-with-claude-code": {
-      "blog_slug": "best-practices-for-using-claude-opus-4-7-with-claude-code",
+      "blog_slug": "2026.04.16_best-practices-for-using-claude-opus-4-7-with-claude-code",
       "processed_at": "2026-04-20T12:29:33Z",
       "source_date": "2026-04-16"
     },
     "https://claude.com/blog/using-claude-code-session-management-and-1m-context": {
-      "blog_slug": "using-claude-code-session-management-and-1m-context",
+      "blog_slug": "2026.04.15_using-claude-code-session-management-and-1m-context",
       "processed_at": "2026-04-20T15:28:03Z",
       "source_date": "2026-04-15"
     },
     "https://claude.com/blog/introducing-routines-in-claude-code": {
-      "blog_slug": "introducing-routines-in-claude-code",
+      "blog_slug": "2026.04.14_introducing-routines-in-claude-code",
       "processed_at": "2026-04-20T15:28:03Z",
       "source_date": "2026-04-14"
     },
     "https://claude.com/blog/claude-platform-compliance-api": {
-      "blog_slug": "claude-platform-compliance-api",
+      "blog_slug": "2026.03.30_claude-platform-compliance-api",
       "processed_at": "2026-04-20T19:02:43Z",
       "source_date": "2026-03-30"
     },
     "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon": {
-      "blog_slug": "meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
+      "blog_slug": "2026.04.20_meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
       "processed_at": "2026-04-20T19:02:43Z",
       "source_date": "2026-04-20"
     },
     "https://claude.com/blog/seeing-like-an-agent": {
-      "blog_slug": "seeing-like-an-agent",
+      "blog_slug": "2026.04.10_seeing-like-an-agent",
       "processed_at": "2026-04-20T23:07:03Z",
       "source_date": "2026-04-10"
     },
     "https://claude.com/blog/multi-agent-coordination-patterns": {
-      "blog_slug": "multi-agent-coordination-patterns",
+      "blog_slug": "2026.04.10_multi-agent-coordination-patterns",
       "processed_at": "2026-04-20T23:07:03Z",
       "source_date": "2026-04-10"
     },
     "https://claude.com/blog/the-advisor-strategy": {
-      "blog_slug": "the-advisor-strategy",
+      "blog_slug": "2026.04.09_the-advisor-strategy",
       "processed_at": "2026-04-21T03:02:53Z",
       "source_date": "2026-04-09"
     },
     "https://claude.com/blog/cowork-for-enterprise": {
-      "blog_slug": "cowork-for-enterprise",
+      "blog_slug": "2026.04.09_cowork-for-enterprise",
       "processed_at": "2026-04-21T03:02:53Z",
       "source_date": "2026-04-09"
     },
     "https://claude.com/blog/carta-healthcare-clinical-abstractor": {
-      "blog_slug": "carta-healthcare-clinical-abstractor",
+      "blog_slug": "2026.04.08_carta-healthcare-clinical-abstractor",
       "processed_at": "2026-04-21T07:05:26Z",
       "source_date": "2026-04-08"
     },
     "https://claude.com/blog/1m-context": {
-      "blog_slug": "1m-context",
+      "blog_slug": "2025.08.12_1m-context",
       "processed_at": "2026-04-21T07:05:26Z",
       "source_date": "2025-08-12"
     },
     "https://claude.com/blog/agent-capabilities-api": {
-      "blog_slug": "agent-capabilities-api",
+      "blog_slug": "2025.05.22_agent-capabilities-api",
       "processed_at": "2026-04-21T11:07:02Z",
       "source_date": "2025-05-22"
     },
     "https://claude.com/blog/amazon-bedrock-general-availability": {
-      "blog_slug": "amazon-bedrock-general-availability",
+      "blog_slug": "2023.09.28_amazon-bedrock-general-availability",
       "processed_at": "2026-04-21T11:07:02Z",
       "source_date": "2023-09-28"
     },
     "https://claude.com/blog/analysis-tool": {
-      "blog_slug": "analysis-tool",
+      "blog_slug": "2024.10.24_analysis-tool",
       "processed_at": "2026-04-21T15:05:32Z",
       "source_date": "2024-10-24"
     },
     "https://claude.com/blog/android-app": {
-      "blog_slug": "android-app",
+      "blog_slug": "2024.07.16_android-app",
       "processed_at": "2026-04-21T15:05:32Z",
       "source_date": "2024-07-16"
     },
     "https://claude.com/blog/automate-security-reviews-with-claude-code": {
-      "blog_slug": "automate-security-reviews-with-claude-code",
+      "blog_slug": "2025.08.06_automate-security-reviews-with-claude-code",
       "processed_at": "2026-04-21T19:04:15Z",
       "source_date": "2025-08-06"
     },
     "https://claude.com/blog/behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early": {
-      "blog_slug": "behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
+      "blog_slug": "2026.02.09_behind-model-launch-what-customers-discovered-testing-claude-opus-4-6-early",
       "processed_at": "2026-04-21T19:04:15Z",
       "source_date": "2026-02-09"
     },
     "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": {
-      "blog_slug": "beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
+      "blog_slug": "2025.10.08_beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
       "processed_at": "2026-04-21T23:06:58Z",
       "source_date": "2025-10-08"
     },
     "https://claude.com/blog/build-artifacts": {
-      "blog_slug": "build-artifacts",
+      "blog_slug": "2025.06.25_build-artifacts",
       "processed_at": "2026-04-21T23:06:58Z",
       "source_date": "2025-06-25"
     },
     "https://claude.com/blog/build-responsive-web-layouts": {
-      "blog_slug": "build-responsive-web-layouts",
+      "blog_slug": "2025.10.10_build-responsive-web-layouts",
       "processed_at": "2026-04-22T03:02:38Z",
       "source_date": "2025-10-10"
     },
     "https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work": {
-      "blog_slug": "building-agents-with-skills-equipping-agents-for-specialized-work",
+      "blog_slug": "2026.01.22_building-agents-with-skills-equipping-agents-for-specialized-work",
       "processed_at": "2026-04-22T03:02:38Z",
       "source_date": "2026-01-22"
     },
     "https://claude.com/blog/building-agents-with-the-claude-agent-sdk": {
-      "blog_slug": "building-agents-with-the-claude-agent-sdk",
+      "blog_slug": "2025.09.29_building-agents-with-the-claude-agent-sdk",
       "processed_at": "2026-04-22T07:02:33Z",
       "source_date": "2025-09-29"
     },
     "https://claude.com/blog/building-ai-agents-for-startups": {
-      "blog_slug": "building-ai-agents-for-startups",
+      "blog_slug": "2025.11.03_building-ai-agents-for-startups",
       "processed_at": "2026-04-22T07:02:33Z",
       "source_date": "2025-11-03"
     },
     "https://claude.com/blog/building-ai-agents-in-healthcare-and-life-sciences": {
-      "blog_slug": "building-ai-agents-in-healthcare-and-life-sciences",
+      "blog_slug": "2025.10.30_building-ai-agents-in-healthcare-and-life-sciences",
       "processed_at": "2026-04-22T11:12:26Z",
       "source_date": "2025-10-30"
     },
     "https://claude.com/blog/building-companies-with-claude-code": {
-      "blog_slug": "building-companies-with-claude-code",
+      "blog_slug": "2025.11.17_building-companies-with-claude-code",
       "processed_at": "2026-04-22T11:12:26Z",
       "source_date": "2025-11-17"
     },
     "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them": {
-      "blog_slug": "building-multi-agent-systems-when-and-how-to-use-them",
+      "blog_slug": "2026.01.23_building-multi-agent-systems-when-and-how-to-use-them",
       "processed_at": "2026-04-22T15:05:12Z",
       "source_date": "2026-01-23"
     },
     "https://claude.com/blog/claude-2-1-prompting": {
-      "blog_slug": "claude-2-1-prompting",
+      "blog_slug": "2023.12.06_claude-2-1-prompting",
       "processed_at": "2026-04-22T15:05:12Z",
       "source_date": "2023-12-06"
     },
     "https://claude.com/blog/claude-2-amazon-bedrock": {
-      "blog_slug": "claude-2-amazon-bedrock",
+      "blog_slug": "2023.08.23_claude-2-amazon-bedrock",
       "processed_at": "2026-04-22T19:04:05Z",
       "source_date": "2023-08-23"
     },
     "https://claude.com/blog/claude-code-and-new-admin-controls-for-business-plans": {
-      "blog_slug": "claude-code-and-new-admin-controls-for-business-plans",
+      "blog_slug": "2025.08.20_claude-code-and-new-admin-controls-for-business-plans",
       "processed_at": "2026-04-22T19:04:05Z",
       "source_date": "2025-08-20"
     },
     "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp": {
-      "blog_slug": "building-agents-that-reach-production-systems-with-mcp",
+      "blog_slug": "2026.04.22_building-agents-that-reach-production-systems-with-mcp",
       "processed_at": "2026-04-22T23:05:54Z",
       "source_date": "2026-04-22"
     },
     "https://claude.com/blog/claude-code-and-slack": {
-      "blog_slug": "claude-code-and-slack",
+      "blog_slug": "2025.12.08_claude-code-and-slack",
       "processed_at": "2026-04-22T23:05:54Z",
       "source_date": "2025-12-08"
     },
     "https://claude.com/blog/claude-code-plugins": {
-      "blog_slug": "claude-code-plugins",
+      "blog_slug": "2025.10.09_claude-code-plugins",
       "processed_at": "2026-04-23T03:02:28Z",
       "source_date": "2025-10-09"
     },
     "https://claude.com/blog/claude-code-remote-mcp": {
-      "blog_slug": "claude-code-remote-mcp",
+      "blog_slug": "2025.06.18_claude-code-remote-mcp",
       "processed_at": "2026-04-23T03:02:28Z",
       "source_date": "2025-06-18"
     },
     "https://claude.com/blog/claude-excel-powerpoint-updates": {
-      "blog_slug": "claude-excel-powerpoint-updates",
+      "blog_slug": "2026.03.11_claude-excel-powerpoint-updates",
       "processed_at": "2026-04-23T07:11:15Z",
       "source_date": "2026-03-11"
     },
     "https://claude.com/blog/claude-for-chrome": {
-      "blog_slug": "claude-for-chrome",
+      "blog_slug": "2025.08.25_claude-for-chrome",
       "processed_at": "2026-04-23T07:11:15Z",
       "source_date": "2025-08-25"
     },
     "https://claude.com/blog/claude-for-enterprise": {
-      "blog_slug": "claude-for-enterprise",
+      "blog_slug": "2024.09.10_claude-for-enterprise",
       "processed_at": "2026-04-23T11:06:22Z",
       "source_date": "2024-09-10"
     },
     "https://claude.com/blog/claude-now-available-in-microsoft-365-copilot": {
-      "blog_slug": "claude-now-available-in-microsoft-365-copilot",
+      "blog_slug": "2025.09.24_claude-now-available-in-microsoft-365-copilot",
       "processed_at": "2026-04-23T11:06:22Z",
       "source_date": "2025-09-24"
     },
     "https://claude.com/blog/claude-on-google-cloud-fedramp-high": {
-      "blog_slug": "claude-on-google-cloud-fedramp-high",
+      "blog_slug": "2025.04.02_claude-on-google-cloud-fedramp-high",
       "processed_at": "2026-04-23T15:08:42Z",
       "source_date": "2025-04-02"
     },
     "https://claude.com/blog/claude-powered-artifacts": {
-      "blog_slug": "claude-powered-artifacts",
+      "blog_slug": "2025.07.25_claude-powered-artifacts",
       "processed_at": "2026-04-23T15:08:42Z",
       "source_date": "2025-07-25"
     },
     "https://claude.com/blog/connectors-for-everyday-life": {
-      "blog_slug": "connectors-for-everyday-life",
+      "blog_slug": "2026.04.23_connectors-for-everyday-life",
       "processed_at": "2026-04-23T19:03:55Z",
       "source_date": "2026-04-23"
     },
     "https://claude.com/blog/claude-team-updates": {
-      "blog_slug": "claude-team-updates",
+      "blog_slug": "2026.01.28_claude-team-updates",
       "processed_at": "2026-04-23T19:03:56Z",
       "source_date": "2026-01-28"
     },
     "https://claude.com/blog/claude-managed-agents-memory": {
-      "blog_slug": "claude-managed-agents-memory",
+      "blog_slug": "2026.04.23_claude-managed-agents-memory",
       "processed_at": "2026-04-23T23:04:50Z",
       "source_date": "2026-04-23"
     },
     "https://claude.com/blog/code-with-claude-san-francisco-london-tokyo": {
-      "blog_slug": "code-with-claude-san-francisco-london-tokyo",
+      "blog_slug": "2026.03.18_code-with-claude-san-francisco-london-tokyo",
       "processed_at": "2026-04-23T23:04:50Z",
       "source_date": "2026-03-18"
     },
     "https://claude.com/blog/common-workflow-patterns-for-ai-agents-and-when-to-use-them": {
-      "blog_slug": "common-workflow-patterns-for-ai-agents-and-when-to-use-them",
+      "blog_slug": "2026.03.05_common-workflow-patterns-for-ai-agents-and-when-to-use-them",
       "processed_at": "2026-04-24T03:05:16Z",
       "source_date": "2026-03-05"
     },
     "https://claude.com/blog/complete-guide-to-building-skills-for-claude": {
-      "blog_slug": "complete-guide-to-building-skills-for-claude",
+      "blog_slug": "2026.01.29_complete-guide-to-building-skills-for-claude",
       "processed_at": "2026-04-24T03:05:16Z",
       "source_date": "2026-01-29"
     }

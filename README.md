@@ -10,10 +10,10 @@ A repository that converts official Claude blog posts into **Claude Code's offic
 
 ## Layout (per blog post)
 
-One blog post = one `<blog-slug>/` folder. The subfolders below appear conditionally based on the post's character.
+One blog post = one `<YYYY.MM.DD>_<blog-slug>/` folder at the repo root, where the date prefix is the post's `published_date` and `<blog-slug>` is the last URL segment. Folders sort naturally from newest to oldest on GitHub. The subfolders below appear conditionally based on the post's character.
 
 ```
-<blog-slug>/
+<YYYY.MM.DD>_<blog-slug>/
 ├── description.en.md               # Human-readable English summary (always)
 ├── description.ko.md               # Korean summary (always)
 ├── description.es.md               # Spanish summary (always)
@@ -112,7 +112,7 @@ All guides and summaries are available in English, Korean, Spanish, and Japanese
 
 ```
 .
-├── <blog-slug>/                       # One folder per blog post
+├── <YYYY.MM.DD>_<blog-slug>/           # One folder per blog post, date-prefixed
 ├── scripts/
 │   ├── list_pending.py          # List pending URLs
 │   ├── mark_processed.py        # Mark a URL processed

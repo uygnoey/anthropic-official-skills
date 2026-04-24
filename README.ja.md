@@ -9,10 +9,10 @@ Claude 公式ブログの記事を、**記事の性格に合わせた Claude Cod
 
 ## 構成（記事 1 本ごと）
 
-ブログ記事 1 本 = `<blog-slug>/` フォルダ 1 つ。サブフォルダは記事の性格に応じて条件付きで追加されます。
+ブログ記事 1 本 = リポジトリルート直下の `<YYYY.MM.DD>_<blog-slug>/` フォルダ 1 つ。日付のプレフィックスは記事の `published_date` を `YYYY.MM.DD` に変換したもの、`<blog-slug>` は URL の最後のセグメントです。GitHub 上で新しいものから古いものへ自然に並びます。サブフォルダは記事の性格に応じて条件付きで追加されます。
 
 ```
-<blog-slug>/
+<YYYY.MM.DD>_<blog-slug>/
 ├── description.en.md               # 英語の解説（常時）
 ├── description.ko.md               # 韓国語の解説（常時）
 ├── description.es.md               # スペイン語の解説（常時）
@@ -112,7 +112,7 @@ Claude 公式ブログの記事を、**記事の性格に合わせた Claude Cod
 
 ```
 .
-├── <blog-slug>/                       # 記事 1 本ごとに 1 フォルダ
+├── <YYYY.MM.DD>_<blog-slug>/           # 記事 1 本ごとに 1 フォルダ、日付プレフィックス付き
 ├── scripts/
 │   ├── list_pending.py          # 未処理 URL の一覧
 │   ├── mark_processed.py        # URL を処理済みに記録
