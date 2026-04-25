@@ -368,6 +368,16 @@
       "blog_slug": "2025.10.28_fix-software-bugs-faster-with-claude",
       "processed_at": "2026-04-25T07:04:35Z",
       "source_date": "2025-10-28"
+    },
+    "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization": {
+      "blog_slug": "2026.02.23_how-ai-helps-break-cost-barrier-cobol-modernization",
+      "processed_at": "2026-04-25T11:06:41Z",
+      "source_date": "2026-02-23"
+    },
+    "https://claude.com/blog/how-anthropic-teams-use-claude-code": {
+      "blog_slug": "2025.07.24_how-anthropic-teams-use-claude-code",
+      "processed_at": "2026-04-25T11:06:41Z",
+      "source_date": "2025-07-24"
     }
   }
 }
