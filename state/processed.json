@@ -388,6 +388,16 @@
       "blog_slug": "2026.01.26_how-anthropic-uses-claude-marketing",
       "processed_at": "2026-04-25T11:15:42Z",
       "source_date": "2026-01-26"
+    },
+    "https://claude.com/blog/how-brex-improves-code-quality-and-productivity-with-claude-code": {
+      "blog_slug": "2025.10.30_how-brex-improves-code-quality-and-productivity-with-claude-code",
+      "processed_at": "2026-04-25T15:10:19Z",
+      "source_date": "2025-10-30"
+    },
+    "https://claude.com/blog/how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation": {
+      "blog_slug": "2026.01.28_how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation",
+      "processed_at": "2026-04-25T15:10:19Z",
+      "source_date": "2026-01-28"
     }
   }
 }
