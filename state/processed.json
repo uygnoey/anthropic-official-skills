@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-04-24"
+    "last_run_at": "2026-04-25"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -348,6 +348,16 @@
       "blog_slug": "2026.01.21_eight-trends-defining-how-software-gets-built-in-2026",
       "processed_at": "2026-04-24T23:05:42Z",
       "source_date": "2026-01-21"
+    },
+    "https://claude.com/blog/evaluate-prompts": {
+      "blog_slug": "2024.07.09_evaluate-prompts",
+      "processed_at": "2026-04-25T03:02:20Z",
+      "source_date": "2024-07-09"
+    },
+    "https://claude.com/blog/extending-claude-capabilities-with-skills-mcp-servers": {
+      "blog_slug": "2025.12.19_extending-claude-capabilities-with-skills-mcp-servers",
+      "processed_at": "2026-04-25T03:02:20Z",
+      "source_date": "2025-12-19"
     }
   }
 }
