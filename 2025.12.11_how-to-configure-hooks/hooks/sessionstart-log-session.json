@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '\"Session: \" + .transcript_path' >> ~/.claude/sessions.log"
+          }
+        ]
+      }
+    ]
+  }
+}

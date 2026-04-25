@@ -398,6 +398,16 @@
       "blog_slug": "2026.01.28_how-leading-retailers-are-turning-ai-pilots-into-enterprise-wide-transformation",
       "processed_at": "2026-04-25T15:10:19Z",
       "source_date": "2026-01-28"
+    },
+    "https://claude.com/blog/how-to-configure-hooks": {
+      "blog_slug": "2025.12.11_how-to-configure-hooks",
+      "processed_at": "2026-04-25T19:04:38Z",
+      "source_date": "2025-12-11"
+    },
+    "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples": {
+      "blog_slug": "2025.11.19_how-to-create-skills-key-steps-limitations-and-examples",
+      "processed_at": "2026-04-25T19:04:38Z",
+      "source_date": "2025-11-19"
     }
   }
 }
