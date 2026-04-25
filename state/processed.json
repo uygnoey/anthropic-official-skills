@@ -378,6 +378,16 @@
       "blog_slug": "2025.07.24_how-anthropic-teams-use-claude-code",
       "processed_at": "2026-04-25T11:06:41Z",
       "source_date": "2025-07-24"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-legal": {
+      "blog_slug": "2025.12.08_how-anthropic-uses-claude-legal",
+      "processed_at": "2026-04-25T11:15:42Z",
+      "source_date": "2025-12-08"
+    },
+    "https://claude.com/blog/how-anthropic-uses-claude-marketing": {
+      "blog_slug": "2026.01.26_how-anthropic-uses-claude-marketing",
+      "processed_at": "2026-04-25T11:15:42Z",
+      "source_date": "2026-01-26"
     }
   }
 }
