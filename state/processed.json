@@ -1118,6 +1118,16 @@
       "blog_slug": "2026.07.08_working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
       "processed_at": "2026-08-23T06:20:35Z",
       "source_date": "2026-07-08"
+    },
+    "https://claude.com/blog/working-at-the-frontier-rakuten": {
+      "blog_slug": "2026.07.20_working-at-the-frontier-rakuten",
+      "processed_at": "2026-08-23T10:20:23Z",
+      "source_date": "2026-07-20"
+    },
+    "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work": {
+      "blog_slug": "2026.07.15_working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
+      "processed_at": "2026-08-23T10:20:23Z",
+      "source_date": "2026-07-15"
     }
   }
 }
