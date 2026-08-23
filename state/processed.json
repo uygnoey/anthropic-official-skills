@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-08-22"
+    "last_run_at": "2026-08-23"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -1098,6 +1098,16 @@
       "blog_slug": "2026.07.23_think-through-hard-problems-in-voice-mode",
       "processed_at": "2026-08-22T22:15:21Z",
       "source_date": "2026-07-23"
+    },
+    "https://claude.com/blog/working-at-the-frontier-cursor": {
+      "blog_slug": "2026.07.17_working-at-the-frontier-cursor",
+      "processed_at": "2026-08-23T02:21:27Z",
+      "source_date": "2026-07-17"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": {
+      "blog_slug": "2026.07.10_working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
+      "processed_at": "2026-08-23T02:21:27Z",
+      "source_date": "2026-07-10"
     }
   }
 }

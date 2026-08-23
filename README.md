@@ -102,8 +102,10 @@ Each artifact can be copied into a project as-is.
 | [Building verification loops in Claude Code with skills](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills) | 2026-07-22 | 1 skill + 1 guide |
 | [How Datadog built a "universal machine tool" for Claude Code](https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code) | 2026-07-21 | 1 skill + 1 guide |
 | [How Anthropic secures its AI-native software development lifecycle](https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle) | 2026-07-21 | 1 skill + 2 agent + 1 hook + 1 guide |
+| [Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems](https://claude.com/blog/working-at-the-frontier-cursor) | 2026-07-17 | 2 skill + 1 guide |
 | [Zero risk isn't the job: a CISO's guide to agentic AI](https://claude.com/blog/ciso-guide-to-agentic-ai) | 2026-07-17 | 1 skill + 2 agent + 1 guide |
 | [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) | 2026-07-16 | 1 skill + 5 agent + 1 guide |
+| [Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night](https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night) | 2026-07-10 | 2 skill + 1 guide |
 | [How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds](https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds) | 2026-07-08 | 4 skill + 2 agent + 1 guide |
 | [How people are using Claude Cowork](https://claude.com/blog/how-people-are-using-claude-cowork) | 2026-07-07 | 1 skill + 1 guide |
 | [Claude Cowork is coming to mobile and web](https://claude.com/blog/cowork-web-mobile) | 2026-07-07 | 1 skill + 1 guide |
