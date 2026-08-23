@@ -1128,6 +1128,11 @@
       "blog_slug": "2026.07.15_working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work",
       "processed_at": "2026-08-23T10:20:23Z",
       "source_date": "2026-07-15"
+    },
+    "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork": {
+      "blog_slug": "2026.07.16_working-with-claude-fable-5-in-claude-cowork",
+      "processed_at": "2026-08-23T14:16:17Z",
+      "source_date": "2026-07-16"
     }
   }
 }
