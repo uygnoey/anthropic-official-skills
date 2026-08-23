@@ -1108,6 +1108,16 @@
       "blog_slug": "2026.07.10_working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
       "processed_at": "2026-08-23T02:21:27Z",
       "source_date": "2026-07-10"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": {
+      "blog_slug": "2026.07.13_working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+      "processed_at": "2026-08-23T06:20:35Z",
+      "source_date": "2026-07-13"
+    },
+    "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": {
+      "blog_slug": "2026.07.08_working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
+      "processed_at": "2026-08-23T06:20:35Z",
+      "source_date": "2026-07-08"
     }
   }
 }
