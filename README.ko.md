@@ -68,6 +68,7 @@ Claude 공식 블로그 글을 **글의 성격에 맞는 Claude Code 공식 규�
 
 | 블로그 글 | 게시일 | Artifacts |
 |---|---|---|
+| [How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep) | 2026-08-24 | 1 skill + 1 guide |
 | [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook) | 2026-08-21 | 1 skill + 3 agent + 2 hook + 1 guide |
 | [Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders](https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders) | 2026-08-21 | 1 skill + 1 guide |
 | [How monday.com transformed its platform into an agent-first product where humans and agents collaborate](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate) | 2026-08-20 | 1 skill + 5 agent + 1 guide |

@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-08-23"
+    "last_run_at": "2026-08-24"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -1133,6 +1133,11 @@
       "blog_slug": "2026.07.16_working-with-claude-fable-5-in-claude-cowork",
       "processed_at": "2026-08-23T14:16:17Z",
       "source_date": "2026-07-16"
+    },
+    "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep": {
+      "blog_slug": "2026.08.24_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "processed_at": "2026-08-24T18:12:41Z",
+      "source_date": "2026-08-24"
     }
   }
 }
