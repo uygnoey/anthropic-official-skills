@@ -1138,6 +1138,11 @@
       "blog_slug": "2026.08.24_how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
       "processed_at": "2026-08-24T18:12:41Z",
       "source_date": "2026-08-24"
+    },
+    "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner": {
+      "blog_slug": "2026.08.25_bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "processed_at": "2026-08-25T14:12:10Z",
+      "source_date": "2026-08-25"
     }
   }
 }
