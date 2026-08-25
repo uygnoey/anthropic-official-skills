@@ -69,6 +69,7 @@ Cada artefacto puede copiarse tal cual a tu proyecto.
 
 | Post | Publicado | Artefactos |
 |---|---|---|
+| [Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it) | 2026-08-25 | 1 skill + 1 guide |
 | [Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner) | 2026-08-25 | 1 skill + 1 guide |
 | [How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep) | 2026-08-24 | 1 skill + 1 guide |
 | [The AI-Native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook) | 2026-08-21 | 1 skill + 3 agent + 2 hook + 1 guide |
@@ -107,8 +108,8 @@ Cada artefacto puede copiarse tal cual a tu proyecto.
 | [Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5](https://claude.com/blog/working-at-the-frontier-rakuten) | 2026-07-20 | 2 skill + 1 guide |
 | [Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems](https://claude.com/blog/working-at-the-frontier-cursor) | 2026-07-17 | 2 skill + 1 guide |
 | [Zero risk isn't the job: a CISO's guide to agentic AI](https://claude.com/blog/ciso-guide-to-agentic-ai) | 2026-07-17 | 1 skill + 2 agent + 1 guide |
-| [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) | 2026-07-16 | 1 skill + 5 agent + 1 guide |
 | [Working with Claude Fable 5 in Claude Cowork](https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork) | 2026-07-16 | 1 skill + 1 guide |
+| [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) | 2026-07-16 | 1 skill + 5 agent + 1 guide |
 | [Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work](https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work) | 2026-07-15 | 2 skill + 1 guide |
 | [Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail](https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail) | 2026-07-13 | 2 skill + 1 guide |
 | [Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night](https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night) | 2026-07-10 | 2 skill + 1 guide |
