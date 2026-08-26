@@ -1148,6 +1148,16 @@
       "blog_slug": "2026.08.25_claudes-memory-works-everywhere-and-you-decide-whats-in-it",
       "processed_at": "2026-08-25T18:12:02Z",
       "source_date": "2026-08-25"
+    },
+    "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude": {
+      "blog_slug": "2026.08.26_how-warp-builds-self-improving-agents-on-claude",
+      "processed_at": "2026-08-26T18:16:17Z",
+      "source_date": "2026-08-26"
+    },
+    "https://claude.com/blog/claude-in-chrome-generally-available": {
+      "blog_slug": "2026.08.26_claude-in-chrome-generally-available",
+      "processed_at": "2026-08-26T18:16:17Z",
+      "source_date": "2026-08-26"
     }
   }
 }
