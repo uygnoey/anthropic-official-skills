@@ -69,6 +69,9 @@ Cada artefacto puede copiarse tal cual a tu proyecto.
 
 | Post | Publicado | Artefactos |
 |---|---|---|
+| [Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser) | 2026-08-26 | 1 skill + 1 guide |
+| [How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude) | 2026-08-26 | 1 skill + 2 agent + 1 guide |
+| [Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) | 2026-08-26 | 1 skill + 1 guide |
 | [Claude's memory works everywhere, and you decide what's in it](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it) | 2026-08-25 | 1 skill + 1 guide |
 | [Bain & Company joins the Claude Partner Network as a Global Premier partner](https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner) | 2026-08-25 | 1 skill + 1 guide |
 | [How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep](https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep) | 2026-08-24 | 1 skill + 1 guide |

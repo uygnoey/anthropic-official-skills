@@ -1158,6 +1158,11 @@
       "blog_slug": "2026.08.26_claude-in-chrome-generally-available",
       "processed_at": "2026-08-26T18:16:17Z",
       "source_date": "2026-08-26"
+    },
+    "https://claude.com/blog/cowork-built-in-browser": {
+      "blog_slug": "2026.08.26_cowork-built-in-browser",
+      "processed_at": "2026-08-26T22:11:01Z",
+      "source_date": "2026-08-26"
     }
   }
 }
