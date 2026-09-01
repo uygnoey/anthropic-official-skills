@@ -1,7 +1,7 @@
 {
   "description": "Map of processed blog URLs -> { blog_slug, processed_at, source_date }",
   "meta": {
-    "last_run_at": "2026-08-28"
+    "last_run_at": "2026-09-01"
   },
   "entries": {
     "https://claude.com/blog/using-claude-md-files": {
@@ -1163,6 +1163,16 @@
       "blog_slug": "2026.08.26_cowork-built-in-browser",
       "processed_at": "2026-08-26T22:11:01Z",
       "source_date": "2026-08-26"
+    },
+    "https://claude.com/blog/how-anthropic-employees-use-claude-tag": {
+      "blog_slug": "2026.08.28_how-anthropic-employees-use-claude-tag",
+      "processed_at": "2026-09-01T12:02:51Z",
+      "source_date": "2026-08-28"
+    },
+    "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts": {
+      "blog_slug": "2026.08.28_claude-for-teachers-now-available-for-schools-and-districts",
+      "processed_at": "2026-09-01T12:02:51Z",
+      "source_date": "2026-08-28"
     }
   }
 }

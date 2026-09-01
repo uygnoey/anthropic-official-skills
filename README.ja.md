@@ -68,6 +68,8 @@ Claude 公式ブログの記事を、**記事の性格に合わせた Claude Cod
 
 | ブログ記事 | 公開日 | 成果物 |
 |---|---|---|
+| [How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag) | 2026-08-28 | 1 skill + 1 guide |
+| [Claude for Teachers is now available for schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts) | 2026-08-28 | 1 skill + 1 guide |
 | [Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser) | 2026-08-26 | 1 skill + 1 guide |
 | [How Warp builds self-improving agents on Claude](https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude) | 2026-08-26 | 1 skill + 2 agent + 1 guide |
 | [Claude in Chrome is generally available](https://claude.com/blog/claude-in-chrome-generally-available) | 2026-08-26 | 1 skill + 1 guide |
