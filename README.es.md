@@ -69,6 +69,8 @@ Cada artefacto puede copiarse tal cual a tu proyecto.
 
 | Post | Publicado | Artefactos |
 |---|---|---|
+| [A guide to the anatomy of effective commerce agents](https://claude.com/blog/the-anatomy-of-effective-commerce-agents) | 2026-09-02 | 5 skill + 1 guide |
+| [Building commerce agents with Claude](https://claude.com/blog/claude-for-commerce-agents) | 2026-09-02 | 1 skill + 2 agent |
 | [How Anthropic employees use Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag) | 2026-08-28 | 1 skill + 1 guide |
 | [Claude for Teachers is now available for schools and districts](https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts) | 2026-08-28 | 1 skill + 1 guide |
 | [Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser) | 2026-08-26 | 1 skill + 1 guide |

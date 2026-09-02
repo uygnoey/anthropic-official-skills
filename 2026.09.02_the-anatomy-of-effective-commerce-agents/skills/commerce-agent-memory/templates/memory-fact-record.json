@@ -1,0 +1,14 @@
+{
+  "key": "shoe_size",
+  "value": "11 US M",
+  "category": "preference",
+  "source_session": "sess_01H...",
+  "_notes": {
+    "key": "Stable identifier for the fact. Updating an existing key replaces the value rather than appending a second record.",
+    "value": "The remembered value, in whatever shape your database column expects.",
+    "category": "Drives retrieval layer and retention. Suggested values: safety, preference, logistics, history.",
+    "source_session": "Session the fact was extracted from. Needed for audit, correction and user-facing provenance.",
+    "write_path": "Validate category against the allow-list for this deployment before writing. Reject anything not on it.",
+    "retention": "Attach a retention period per category. Preferences age out; safety facts usually do not."
+  }
+}

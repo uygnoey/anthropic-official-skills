@@ -1173,6 +1173,16 @@
       "blog_slug": "2026.08.28_claude-for-teachers-now-available-for-schools-and-districts",
       "processed_at": "2026-09-01T12:02:51Z",
       "source_date": "2026-08-28"
+    },
+    "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": {
+      "blog_slug": "2026.09.02_the-anatomy-of-effective-commerce-agents",
+      "processed_at": "2026-09-02T18:21:08Z",
+      "source_date": "2026-09-02"
+    },
+    "https://claude.com/blog/claude-for-commerce-agents": {
+      "blog_slug": "2026.09.02_claude-for-commerce-agents",
+      "processed_at": "2026-09-02T18:21:08Z",
+      "source_date": "2026-09-02"
     }
   }
 }
